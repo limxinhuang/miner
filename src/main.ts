@@ -5,10 +5,12 @@ import { LEVELS, SHOP } from './levels';
 import { readSave, writeSave, clearSave, type Save } from './save';
 import { Feedback } from './feedback';
 import { BACKGROUNDS, loadAssets, registerFrames } from './assets';
+import { mountTuning } from './tuning';
 
 type Phase = 'ready'|'playing'|'won'|'lost'|'shop'|'complete';
 const $ = (id:string) => document.getElementById(id)!;
 const action=$('action') as HTMLButtonElement, pause=$('pause') as HTMLButtonElement;
+mountTuning();
 let sound=false, audio:AudioContext|undefined;
 function tone(freq:number,duration=.1){if(!sound)return;try{audio??=new AudioContext();void audio.resume();const o=audio.createOscillator(),g=audio.createGain();o.type='sine';o.frequency.value=freq;g.gain.setValueAtTime(.06,audio.currentTime);g.gain.exponentialRampToValueAtTime(.001,audio.currentTime+duration);o.connect(g);g.connect(audio.destination);o.start();o.stop(audio.currentTime+duration);}catch{/* Audio is optional. */}}
 let best=0;try{best=Number(localStorage.getItem('gold-digger-campaign-best'))||0;}catch{}$('best').textContent=`$${best.toLocaleString()}`;

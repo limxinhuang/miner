@@ -1,5 +1,6 @@
 import Phaser from 'phaser';
 import {pullSpeed,segmentHitsCircle} from './mechanics';
+import {tuning} from './tuning';
 
 export type Ore={x:number;y:number;r:number;value:number;weight:number;kind:'gold'|'rock'|'diamond';sprite:Phaser.GameObjects.Container;active:boolean};
 export class Player {
@@ -23,7 +24,7 @@ export class Player {
   update(dt:number,ores:Ore[],strength:boolean,onCatch:(o:Ore)=>void,onCollect:(o:Ore)=>void){
     this.animate(dt,strength);
     if(this.mode==='swing'){
-      this.angle+=this.direction*1.15*dt;if(Math.abs(this.angle)>1.27){this.angle=Phaser.Math.Clamp(this.angle,-1.27,1.27);this.direction*=-1;}
+      this.angle+=this.direction*1.15*tuning.swing*dt;if(Math.abs(this.angle)>1.27){this.angle=Phaser.Math.Clamp(this.angle,-1.27,1.27);this.direction*=-1;}
     }else if(this.mode==='out'){
       const previous=this.point();this.length+=440*dt;const current=this.point();
       const hit=ores.filter(o=>o.active&&segmentHitsCircle(previous,current,o,o.r+5)).sort((a,b)=>Phaser.Math.Distance.Between(previous.x,previous.y,a.x,a.y)-Phaser.Math.Distance.Between(previous.x,previous.y,b.x,b.y))[0];
@@ -31,7 +32,7 @@ export class Player {
       if(hit){hit.active=false;this.caught=hit;this.mode='back';onCatch(hit);}
       else if(current.x<20||current.x>980||current.y>467)this.mode='back';
     }else{
-      this.length=Math.max(28,this.length-pullSpeed(this.caught?.weight??0)*(strength?1.65:1)*dt);
+      this.length=Math.max(28,this.length-pullSpeed(this.caught?.weight??0)*tuning.pull*(strength?1.65:1)*dt);
       if(this.caught){const p=this.point();this.caught.sprite.setPosition(p.x,p.y+this.caught.r*.5);}
       if(this.length<=28){if(this.caught){const ore=this.caught;this.caught=undefined;this.score+=ore.value;onCollect(ore);ore.sprite.destroy();}this.mode='swing';}
     }
