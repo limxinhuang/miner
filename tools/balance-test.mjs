@@ -4,7 +4,7 @@ import fs from 'node:fs';
 const executablePath=['C:/Program Files/Google/Chrome/Application/chrome.exe','C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe'].find(p=>fs.existsSync(p));
 const browser=await chromium.launch({executablePath,headless:true});
 try{
-const page=await browser.newPage();await page.goto('http://127.0.0.1:5173');await page.waitForSelector('canvas');
+const page=await browser.newPage();await page.goto('http://127.0.0.1:5173');await page.waitForSelector('canvas');await page.waitForFunction(()=>window.__miner?.scene.getScene('mine')?.players?.length>0);
 const results=await page.evaluate(()=>{
   const game=window.__miner;game.loop.sleep();const s=game.scene.getScene('mine');const results=[];
   for(const coop of [false,true]){s.chooseMode(coop);for(let level=0;level<5;level++){

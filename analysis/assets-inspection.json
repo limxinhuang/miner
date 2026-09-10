@@ -1,0 +1,302 @@
+[
+  {
+    "file": "bg_01_golden_valley.png",
+    "width": 2000,
+    "height": 980,
+    "transparentFraction": 0,
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 2000,
+      "height": 980
+    }
+  },
+  {
+    "file": "bg_02_stony_ridge.png",
+    "width": 2000,
+    "height": 980,
+    "transparentFraction": 0,
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 2000,
+      "height": 980
+    }
+  },
+  {
+    "file": "bg_03_crystal_veins.png",
+    "width": 2000,
+    "height": 980,
+    "transparentFraction": 0,
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 2000,
+      "height": 980
+    }
+  },
+  {
+    "file": "bg_04_deep_reserve.png",
+    "width": 2000,
+    "height": 980,
+    "transparentFraction": 0,
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 2000,
+      "height": 980
+    }
+  },
+  {
+    "file": "bg_05_last_bonanza.png",
+    "width": 2000,
+    "height": 980,
+    "transparentFraction": 0,
+    "bounds": {
+      "x": 0,
+      "y": 0,
+      "width": 2000,
+      "height": 980
+    }
+  },
+  {
+    "file": "claw_p1.png",
+    "width": 256,
+    "height": 256,
+    "transparentFraction": 0.8132171630859375,
+    "bounds": {
+      "x": 43,
+      "y": 14,
+      "width": 170,
+      "height": 214
+    }
+  },
+  {
+    "file": "claw_p2.png",
+    "width": 256,
+    "height": 256,
+    "transparentFraction": 0.8132171630859375,
+    "bounds": {
+      "x": 43,
+      "y": 14,
+      "width": 170,
+      "height": 214
+    }
+  },
+  {
+    "file": "fx_coin.png",
+    "width": 256,
+    "height": 256,
+    "transparentFraction": 0.5799102783203125,
+    "bounds": {
+      "x": 37,
+      "y": 40,
+      "width": 183,
+      "height": 189
+    }
+  },
+  {
+    "file": "fx_explosion.png",
+    "width": 768,
+    "height": 768,
+    "transparentFraction": 0.5510677761501737,
+    "bounds": {
+      "x": 94,
+      "y": 94,
+      "width": 596,
+      "height": 591
+    }
+  },
+  {
+    "file": "fx_sparkle.png",
+    "width": 256,
+    "height": 256,
+    "transparentFraction": 0.9224090576171875,
+    "bounds": {
+      "x": 70,
+      "y": 70,
+      "width": 116,
+      "height": 116
+    }
+  },
+  {
+    "file": "item_dynamite.png",
+    "width": 512,
+    "height": 512,
+    "transparentFraction": 0.8648414611816406,
+    "bounds": {
+      "x": 149,
+      "y": 94,
+      "width": 303,
+      "height": 320
+    }
+  },
+  {
+    "file": "item_strength_potion.png",
+    "width": 512,
+    "height": 512,
+    "transparentFraction": 0.6712074279785156,
+    "bounds": {
+      "x": 101,
+      "y": 55,
+      "width": 311,
+      "height": 406
+    }
+  },
+  {
+    "file": "miner_p1_idle.png",
+    "width": 512,
+    "height": 512,
+    "transparentFraction": 0.7717361450195312,
+    "bounds": {
+      "x": 99,
+      "y": 51,
+      "width": 282,
+      "height": 408
+    }
+  },
+  {
+    "file": "miner_p1_pull.png",
+    "width": 512,
+    "height": 512,
+    "transparentFraction": 0.7701835632324219,
+    "bounds": {
+      "x": 100,
+      "y": 51,
+      "width": 279,
+      "height": 407
+    }
+  },
+  {
+    "file": "miner_p1_win.png",
+    "width": 512,
+    "height": 512,
+    "transparentFraction": 0.7578582763671875,
+    "bounds": {
+      "x": 113,
+      "y": 51,
+      "width": 257,
+      "height": 407
+    }
+  },
+  {
+    "file": "miner_p2_idle.png",
+    "width": 512,
+    "height": 512,
+    "transparentFraction": 0.7717361450195312,
+    "bounds": {
+      "x": 99,
+      "y": 51,
+      "width": 282,
+      "height": 408
+    }
+  },
+  {
+    "file": "miner_p2_pull.png",
+    "width": 512,
+    "height": 512,
+    "transparentFraction": 0.7701835632324219,
+    "bounds": {
+      "x": 100,
+      "y": 51,
+      "width": 279,
+      "height": 407
+    }
+  },
+  {
+    "file": "miner_p2_win.png",
+    "width": 512,
+    "height": 512,
+    "transparentFraction": 0.7578582763671875,
+    "bounds": {
+      "x": 113,
+      "y": 51,
+      "width": 257,
+      "height": 407
+    }
+  },
+  {
+    "file": "ore_diamond.png",
+    "width": 512,
+    "height": 512,
+    "transparentFraction": 0.709381103515625,
+    "bounds": {
+      "x": 66,
+      "y": 108,
+      "width": 381,
+      "height": 324
+    }
+  },
+  {
+    "file": "ore_gold_large.png",
+    "width": 768,
+    "height": 768,
+    "transparentFraction": 0.5552402072482638,
+    "bounds": {
+      "x": 89,
+      "y": 109,
+      "width": 601,
+      "height": 556
+    }
+  },
+  {
+    "file": "ore_gold_medium.png",
+    "width": 512,
+    "height": 512,
+    "transparentFraction": 0.5670356750488281,
+    "bounds": {
+      "x": 61,
+      "y": 81,
+      "width": 396,
+      "height": 356
+    }
+  },
+  {
+    "file": "ore_gold_small.png",
+    "width": 512,
+    "height": 512,
+    "transparentFraction": 0.6184577941894531,
+    "bounds": {
+      "x": 60,
+      "y": 91,
+      "width": 392,
+      "height": 331
+    }
+  },
+  {
+    "file": "ore_rock.png",
+    "width": 512,
+    "height": 512,
+    "transparentFraction": 0.6036529541015625,
+    "bounds": {
+      "x": 50,
+      "y": 91,
+      "width": 412,
+      "height": 331
+    }
+  },
+  {
+    "file": "winch_base.png",
+    "width": 768,
+    "height": 384,
+    "transparentFraction": 0.7425164116753472,
+    "bounds": {
+      "x": 65,
+      "y": 115,
+      "width": 631,
+      "height": 236
+    }
+  },
+  {
+    "file": "winch_wheel.png",
+    "width": 512,
+    "height": 512,
+    "transparentFraction": 0.7127151489257812,
+    "bounds": {
+      "x": 71,
+      "y": 71,
+      "width": 371,
+      "height": 371
+    }
+  }
+]

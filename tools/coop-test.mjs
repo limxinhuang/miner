@@ -5,7 +5,7 @@ const executablePath=['C:/Program Files/Google/Chrome/Application/chrome.exe','C
 const browser=await chromium.launch({executablePath,headless:true});
 try{
   const page=await browser.newPage({viewport:{width:1440,height:1150}});const errors=[];page.on('pageerror',e=>errors.push(e.message));
-  await page.goto('http://127.0.0.1:5173');await page.waitForSelector('canvas');
+  await page.goto('http://127.0.0.1:5173');await page.waitForSelector('canvas');await page.waitForFunction(()=>window.__miner?.scene.getScene('mine')?.players?.length>0);
   const run=fn=>page.evaluate(fn);const state=()=>run(()=>{const s=window.__miner.scene.getScene('mine');return{phase:s.phase,coop:s.coop,index:s.levelIndex,score:s.score,bombs:s.bombs,wallet:s.wallet,total:s.total,strength:s.strength,players:s.players.map(p=>({mode:p.mode,score:p.score,caught:!!p.caught}))};});
   await page.locator('#action').click();const solo=await run(()=>localStorage.getItem('gold-digger-progress-v1'));
   await page.locator('#mode-coop').click();assert.equal((await state()).phase,'ready');
@@ -37,7 +37,7 @@ try{
   await run(()=>{const s=window.__miner.scene.getScene('mine');s.players[0].score=800;s.players[1].score=700;s.score=1500;s.remaining=0;s.update(0,16);});
   await page.locator('#action').click();await page.locator('#buy-potion').click();await page.locator('#buy-bomb').click();
   assert.equal((await state()).wallet,1050);assert.equal((await state()).bombs,3);
-  await page.reload();await page.waitForSelector('canvas');await page.locator('#mode-coop').click();await page.locator('#resume').click();
+  await page.reload();await page.waitForSelector('canvas');await page.waitForFunction(()=>window.__miner?.scene.getScene('mine')?.players?.length>0);await page.locator('#mode-coop').click();await page.locator('#resume').click();
   assert.equal((await state()).phase,'shop');assert.deepEqual((await state()).players.map(p=>p.score),[800,700]);assert.equal((await state()).wallet,1050);
   await page.locator('#next-level').click();await run(()=>window.__miner.loop.sleep());
   const gains=await run(()=>{const s=window.__miner.scene.getScene('mine');return s.players.map((p,i)=>{p.caught=s.ores[i];p.mode='back';p.length=300;p.update(.1,s.ores,false,()=>{},()=>{});const base=300-p.length;p.length=300;p.update(.1,s.ores,s.strength,()=>{},()=>{});return(300-p.length)/base;});});assert.ok(gains.every(n=>Math.abs(n-1.65)<.001));

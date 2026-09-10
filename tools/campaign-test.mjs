@@ -6,7 +6,7 @@ const browser=await chromium.launch({executablePath,headless:true});
 try{
   const page=await browser.newPage({viewport:{width:1440,height:1100}});
   const errors=[];page.on('pageerror',e=>errors.push(e.message));
-  await page.goto('http://127.0.0.1:5173');await page.waitForSelector('canvas');
+  await page.goto('http://127.0.0.1:5173');await page.waitForSelector('canvas');await page.waitForFunction(()=>window.__miner?.scene.getScene('mine')?.players?.length>0);
   await page.locator('#action').click();await page.evaluate(()=>window.__miner.loop.sleep());
   const run=fn=>page.evaluate(fn);
   const state=()=>run(()=>{const s=window.__miner.scene.getScene('mine');return {phase:s.phase,index:s.levelIndex,wallet:s.wallet,total:s.total,bombs:s.bombs,strength:s.strength,potion:s.potion,score:s.score};});

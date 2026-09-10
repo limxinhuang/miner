@@ -4,6 +4,7 @@ import { Player, type Ore } from './player';
 import { LEVELS, SHOP } from './levels';
 import { readSave, writeSave, clearSave, type Save } from './save';
 import { Feedback } from './feedback';
+import { BACKGROUNDS, loadAssets, registerFrames } from './assets';
 
 type Phase = 'ready'|'playing'|'won'|'lost'|'shop'|'complete';
 const $ = (id:string) => document.getElementById(id)!;
@@ -14,7 +15,7 @@ let best=0;try{best=Number(localStorage.getItem('gold-digger-campaign-best'))||0
 
 class Mine extends Phaser.Scene {
   phase:Phase='ready'; paused=false; score=0; remaining=60; ores:Ore[]=[]; coop=false; players:Player[]=[]; updateOrder=0;
-  overlay!:Phaser.GameObjects.Container;
+  overlay!:Phaser.GameObjects.Container; sky!:Phaser.GameObjects.Image; soil!:Phaser.GameObjects.Image;
   levelIndex=0; wallet=0; total=0; bombs=1; potion=false; strength=false;
   checkpoint={wallet:0,total:0,bombs:1,strength:false};
   areaLabel!:Phaser.GameObjects.Text; areaNumber!:Phaser.GameObjects.Text;
@@ -47,7 +48,10 @@ class Mine extends Phaser.Scene {
     if(this.saved)$('resume').textContent='继续'+(this.coop?'双人':'单人')+' · 第 '+(this.saved.levelIndex+1)+' 关'+(this.saved.kind==='shop'?'商店':'（从关卡开头）');
   }
   constructor(){super('mine');}
+  preload(){loadAssets(this);}
   create(){
+    registerFrames(this);
+    action.disabled=false;$('status').textContent='素材加载完成，准备开始开采。';
     this.drawWorld();this.configurePlayers();this.feedback=new Feedback(this);this.createOres();this.makeOverlay('今天，会有好收获。','60 秒内收集 $1,000，完成第一次开采。','点击开始开采');this.renderHook();
     $('resume').hidden=!this.saved;
     if(this.saved){$('resume').textContent='继续上次 · 第 '+(this.saved.levelIndex+1)+' 关'+(this.saved.kind==='shop'?'商店':'');$('save-status').textContent=this.saved.kind==='shop'?'已找到上次的商店进度':'已找到存档，将从本关开头继续';}
@@ -72,23 +76,19 @@ class Mine extends Phaser.Scene {
     document.addEventListener('visibilitychange',()=>{if(document.hidden&&this.phase==='playing'&&!this.paused)this.togglePause();});
   }
   drawWorld(){
-    const g=this.add.graphics();g.fillStyle(0xd0d7b1);g.fillRect(0,0,1000,118);
-    g.fillStyle(0xb4bf96);g.fillPoints([{x:0,y:90},{x:130,y:30},{x:270,y:99},{x:390,y:49},{x:520,y:113},{x:760,y:37},{x:1000,y:92},{x:1000,y:130},{x:0,y:130}],true);
-    g.fillStyle(0x929d72);g.fillPoints([{x:0,y:107},{x:230,y:73},{x:400,y:110},{x:650,y:80},{x:820,y:106},{x:1000,y:65},{x:1000,y:135},{x:0,y:135}],true);
-    g.fillStyle(0x775437);g.fillRect(0,118,1000,372);g.fillStyle(0x62462f);g.fillRect(0,280,1000,210);g.fillStyle(0x513d2c);g.fillRect(0,415,1000,75);
-    g.fillStyle(0x394833);g.fillRect(0,112,1000,10);g.fillStyle(0x9e8551);g.fillRect(0,122,1000,6);
-    const rng=new Phaser.Math.RandomDataGenerator(['golden-valley']);
-    for(let i=0;i<180;i++){g.fillStyle(i%3===0?0xb18a58:0x342c24,.22);g.fillEllipse(rng.between(8,992),rng.between(138,485),rng.between(2,7),3);}
-    g.lineStyle(2,0xa77d4e,.15);for(let y=180;y<490;y+=85)g.lineBetween(0,y,1000,y+12);
-    this.areaLabel=this.add.text(25,26,'GOLDEN VALLEY',{fontFamily:'sans-serif',fontSize:'11px',color:'#4e6046',letterSpacing:3});this.areaNumber=this.add.text(972,27,'01',{fontFamily:'monospace',fontSize:'20px',color:'#647354'}).setOrigin(1,0);
+    this.sky=this.add.image(0,0,BACKGROUNDS[0],'sky').setOrigin(0).setDisplaySize(1000,122);
+    this.soil=this.add.image(0,122,BACKGROUNDS[0],'soil').setOrigin(0).setDisplaySize(1000,368);
+    this.areaLabel=this.add.text(25,20,'GOLDEN VALLEY',{fontFamily:'sans-serif',fontSize:'11px',color:'#34462b',letterSpacing:3,backgroundColor:'#eadca5',padding:{x:6,y:4}});
+    this.areaNumber=this.add.text(972,20,'01',{fontFamily:'monospace',fontSize:'20px',color:'#34462b',backgroundColor:'#eadca5',padding:{x:6,y:2}}).setOrigin(1,0);
   }
   createOres(){
     this.ores.forEach(o=>o.sprite.destroy());this.ores=[];
-    const layout=this.level.ores;
-    for(const [x,y,r,kind,value,weight] of layout){const art=this.add.graphics();
-      if(kind==='diamond'){art.fillStyle(0x5b9995);art.fillPoints([{x:0,y:-r},{x:r,y:-3},{x:0,y:r},{x:-r,y:-3}],true);art.fillStyle(0xc1eee0);art.fillTriangle(-r,-3,0,-r,0,r);art.lineStyle(1,0xe6fff4);art.strokeTriangle(-r,-3,r,-3,0,r);}
-      else{const pts=[{x:-r,y:-r*.2},{x:-r*.55,y:-r*.8},{x:r*.3,y:-r*.9},{x:r*.94,y:-r*.2},{x:r*.7,y:r*.65},{x:-r*.45,y:r*.8}];art.fillStyle(kind==='gold'?0xaf7528:0x62635b);art.fillPoints(pts,true);art.fillStyle(kind==='gold'?0xeab64b:0x929184);art.fillPoints(pts.map(p=>({x:p.x*.88,y:p.y*.88-3})),true);art.fillStyle(kind==='gold'?0xffd778:0xb5b1a0);art.fillTriangle(-r*.7,-r*.25,-r*.45,-r*.65,r*.22,-r*.7);}
-      const sprite=this.add.container(x,y,[art]);this.ores.push({x,y,r,value,weight,kind,sprite,active:true});}
+    for(const [x,y,r,kind,value,weight] of this.level.ores){
+      const key=kind==='gold'?'ore_gold_'+(value>=500?'large':value>=250?'medium':'small'):kind==='rock'?'ore_rock':'ore_diamond';
+      const frame=this.textures.getFrame(key,'trim');
+      const art=this.add.image(0,0,key,'trim').setDisplaySize(r*2,r*2*frame.height/frame.width);
+      const sprite=this.add.container(x,y,[art]);this.ores.push({x,y,r,value,weight,kind,sprite,active:true});
+    }
   }
   makeOverlay(title:string,subtitle:string,hint:string){this.overlay?.destroy();const bg=this.add.rectangle(500,245,1000,490,0x172017,.72);const titleText=this.add.text(500,207,title,{fontFamily:'"Noto Sans SC",sans-serif',fontSize:'34px',fontStyle:'bold',color:'#f3d18c'}).setOrigin(.5);const sub=this.add.text(500,257,subtitle,{fontFamily:'sans-serif',fontSize:'16px',color:'#e1e4d4'}).setOrigin(.5);const foot=this.add.text(500,307,hint,{fontFamily:'sans-serif',fontSize:'13px',color:'#b3bea4'}).setOrigin(.5);this.overlay=this.add.container(0,0,[bg,titleText,sub,foot]).setDepth(20);}
   start(){
@@ -97,6 +97,7 @@ class Mine extends Phaser.Scene {
   }
   startLevel(save=true){
     this.players.forEach(p=>p.reset());
+    this.sky.setTexture(BACKGROUNDS[this.levelIndex],'sky');this.soil.setTexture(BACKGROUNDS[this.levelIndex],'soil');
     this.feedback.clear();this.tweens.resumeAll();this.goalReached=false;this.lastWarning=11;this.animationTime=0;
     this.phase='playing';this.paused=false;this.mode='swing';this.angle=0;this.direction=1;this.length=28;
     this.score=0;this.remaining=this.level.seconds;this.caught=undefined;this.createOres();
@@ -166,8 +167,7 @@ class Mine extends Phaser.Scene {
     if(this.phase!=='playing'||this.paused||player.mode!=='back'||!player.caught||this.bombs<=0)return;
     this.bombs--;const x=player.caught.sprite.x,y=player.caught.sprite.y;
     player.caught.sprite.destroy();player.caught=undefined;
-    const flash=this.add.circle(x,y,12,0xffca61,.9).setDepth(15);
-    this.tweens.add({targets:flash,scale:5,alpha:0,duration:320,onComplete:()=>flash.destroy()});
+    this.feedback.explode(x,y);
     this.cameras.main.shake(120,.003);tone(90,.2);$('status').textContent='炸掉负重！空钩快速收回，物品不计入收益。';this.hud();
   }
   togglePause(){if(this.phase!=='playing')return;this.paused=!this.paused;document.body.classList.toggle('paused',this.paused);pause.innerHTML=this.paused?'继续 <kbd>P</kbd>':'暂停 <kbd>P</kbd>';action.innerHTML=this.paused?'继续开采 <span>SPACE ↗</span>':'放下钩子 <span>SPACE ↓</span>';if(this.paused){this.tweens.pauseAll();this.makeOverlay('休息一下。','矿藏就在这里，等你回来。','点击矿区或按 P 继续');}else{this.tweens.resumeAll();this.overlay.destroy();}this.hud();}
@@ -183,7 +183,7 @@ class Mine extends Phaser.Scene {
     const order=this.updateOrder++%2?[...this.players].reverse():this.players;
     for(const p of order)p.update(dt,this.ores,this.strength,
       hit=>{this.feedback.burst(hit.x,hit.y,hit.kind==='rock'?0xb3aa90:hit.kind==='diamond'?0xbdeedd:0xffd56a);tone(hit.kind==='rock'?120:600);$('status').textContent=(this.coop?'P'+(p.index+1)+'：':'')+(hit.kind==='rock'?'抓到石头了，可用炸药减轻负重。':'抓到了！价值 $'+hit.value+'，正在收回。');},
-      ore=>{this.score+=ore.value;this.feedback.burst(p.origin.x,112,p.color,15);
+      ore=>{this.score+=ore.value;this.feedback.coins(p.origin.x,112);
         $('score').animate([{transform:'scale(1)'},{transform:'scale(1.12)',color:'#ffe9a3'},{transform:'scale(1)'}],{duration:350});
         if(!this.goalReached&&this.score>=this.level.target){this.goalReached=true;this.feedback.burst(500,160,0xefba52,24,true);}
         const label=this.add.text(p.origin.x,127,'+$'+ore.value,{fontSize:'24px',fontFamily:'sans-serif',fontStyle:'bold',color:p.index===0?'#ffdf83':'#b9f4eb'}).setOrigin(.5).setDepth(12);
@@ -228,7 +228,7 @@ class Mine extends Phaser.Scene {
     this.makeOverlay(title,subtitle,this.phase==='complete'?'点击开启新的淘金旅程':won?'点击进入补给商店，准备下一关':'点击重试本关，恢复入关时的资金与道具');
     action.innerHTML=this.phase==='complete'?'再来一轮 <span>↗</span>':won?'前往商店 <span>↗</span>':'重试本关 <span>↗</span>';
     $('status').textContent=this.phase==='complete'?'全部矿区开采完成！':won?'本关收益已存入资金，可以购买下一关的补给。':'本关收益未入账；重试时恢复入关状态。';tone(won?1000:180,.3);
-    if(won){this.feedback.burst(500,210,0xefba52,38,true);this.feedback.burst(500,210,0xbce2cb,24,true);}this.persist();
+    if(won){this.players.forEach(p=>p.celebrate());this.feedback.burst(500,210,0xefba52,38,true);this.feedback.burst(500,210,0xbce2cb,24,true);}this.persist();
   }
 }
 $('sound').onclick=()=>{sound=!sound;$('sound').textContent=`声音：${sound?'开':'关'}`;$('sound').setAttribute('aria-pressed',String(sound));if(sound)tone(660);};
