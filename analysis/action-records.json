@@ -1,0 +1,13637 @@
+[
+  [
+    {
+      "offset": 0,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "ConstantPool"
+    },
+    {
+      "offset": 33,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        },
+        0,
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 49,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 50,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "offset": 55,
+      "op": "CallMethod"
+    },
+    {
+      "offset": 56,
+      "op": "Push",
+      "args": [
+        7000
+      ]
+    },
+    {
+      "offset": 64,
+      "op": "Divide"
+    },
+    {
+      "offset": 65,
+      "op": "0x18"
+    },
+    {
+      "offset": 66,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 67,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 72,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 73,
+      "op": "GotoFrame2"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "ConstantPool"
+    },
+    {
+      "offset": 6,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        },
+        12
+      ]
+    },
+    {
+      "offset": 16,
+      "op": "GetProperty"
+    },
+    {
+      "offset": 17,
+      "op": "Push",
+      "args": [
+        180
+      ]
+    },
+    {
+      "offset": 25,
+      "op": "Less2"
+    },
+    {
+      "offset": 26,
+      "op": "Not"
+    },
+    {
+      "offset": 27,
+      "op": "If",
+      "args": 24
+    },
+    {
+      "offset": 32,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        },
+        4
+      ]
+    },
+    {
+      "offset": 42,
+      "op": "GetProperty"
+    },
+    {
+      "offset": 43,
+      "op": "Push",
+      "args": [
+        3
+      ]
+    },
+    {
+      "offset": 51,
+      "op": "Subtract"
+    },
+    {
+      "offset": 52,
+      "op": "GotoFrame2"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "",
+        4
+      ]
+    },
+    {
+      "offset": 10,
+      "op": "GetProperty"
+    },
+    {
+      "offset": 11,
+      "op": "Push",
+      "args": [
+        30
+      ]
+    },
+    {
+      "offset": 19,
+      "op": "RandomNumber"
+    },
+    {
+      "offset": 20,
+      "op": "Add2"
+    },
+    {
+      "offset": 21,
+      "op": "Push",
+      "args": [
+        1
+      ]
+    },
+    {
+      "offset": 29,
+      "op": "Add2"
+    },
+    {
+      "offset": 30,
+      "op": "GotoFrame2"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "ConstantPool"
+    },
+    {
+      "offset": 55,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        },
+        375
+      ]
+    },
+    {
+      "offset": 65,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 66,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        },
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 73,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 74,
+      "op": "Push",
+      "args": [
+        275
+      ]
+    },
+    {
+      "offset": 82,
+      "op": "Add2"
+    },
+    {
+      "offset": 83,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 84,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        },
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 91,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 92,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "offset": 97,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 98,
+      "op": "Add2"
+    },
+    {
+      "offset": 99,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 100,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 3
+        },
+        {
+          "type": 8,
+          "index": 4
+        },
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 109,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 110,
+      "op": "Add2"
+    },
+    {
+      "offset": 111,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 112,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 5
+        },
+        1
+      ]
+    },
+    {
+      "offset": 122,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 123,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 6
+        },
+        1
+      ]
+    },
+    {
+      "offset": 133,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "L",
+        "level"
+      ]
+    },
+    {
+      "offset": 13,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 14,
+      "op": "Add2"
+    },
+    {
+      "offset": 15,
+      "op": "Push",
+      "args": [
+        "_"
+      ]
+    },
+    {
+      "offset": 21,
+      "op": "Add2"
+    },
+    {
+      "offset": 22,
+      "op": "Push",
+      "args": [
+        3
+      ]
+    },
+    {
+      "offset": 30,
+      "op": "RandomNumber"
+    },
+    {
+      "offset": 31,
+      "op": "Push",
+      "args": [
+        1
+      ]
+    },
+    {
+      "offset": 39,
+      "op": "Add2"
+    },
+    {
+      "offset": 40,
+      "op": "Add2"
+    },
+    {
+      "offset": 41,
+      "op": "GotoFrame2"
+    },
+    {
+      "offset": 45,
+      "op": "Push",
+      "args": [
+        "strength",
+        0
+      ]
+    },
+    {
+      "offset": 67,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "ConstantPool"
+    },
+    {
+      "offset": 61,
+      "op": "Push",
+      "args": [
+        9,
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 71,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 72,
+      "op": "Less2"
+    },
+    {
+      "offset": 73,
+      "op": "Not"
+    },
+    {
+      "offset": 74,
+      "op": "Not"
+    },
+    {
+      "offset": 75,
+      "op": "If",
+      "args": 18
+    },
+    {
+      "offset": 80,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        },
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 87,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 88,
+      "op": "Push",
+      "args": [
+        270
+      ]
+    },
+    {
+      "offset": 96,
+      "op": "Add2"
+    },
+    {
+      "offset": 97,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 98,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 2
+        },
+        {
+          "type": 8,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "offset": 105,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 106,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "offset": 111,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 112,
+      "op": "Add2"
+    },
+    {
+      "offset": 113,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 114,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 4
+        },
+        {
+          "type": 8,
+          "index": 5
+        },
+        {
+          "type": 8,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "offset": 123,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 124,
+      "op": "Add2"
+    },
+    {
+      "offset": 125,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 126,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        },
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 133,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 134,
+      "op": "Push",
+      "args": [
+        1
+      ]
+    },
+    {
+      "offset": 142,
+      "op": "Add2"
+    },
+    {
+      "offset": 143,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 144,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 6
+        },
+        {
+          "type": 8,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "offset": 151,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 152,
+      "op": "Push",
+      "args": [
+        1
+      ]
+    },
+    {
+      "offset": 160,
+      "op": "Add2"
+    },
+    {
+      "offset": 161,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 162,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 7
+        }
+      ]
+    },
+    {
+      "offset": 167,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 168,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "offset": 173,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 174,
+      "op": "Less2"
+    },
+    {
+      "offset": 175,
+      "op": "Not"
+    },
+    {
+      "offset": 176,
+      "op": "If",
+      "args": 11
+    },
+    {
+      "offset": 181,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 6
+        },
+        4
+      ]
+    },
+    {
+      "offset": 191,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "L",
+        "level"
+      ]
+    },
+    {
+      "offset": 13,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 14,
+      "op": "Add2"
+    },
+    {
+      "offset": 15,
+      "op": "Push",
+      "args": [
+        "_"
+      ]
+    },
+    {
+      "offset": 21,
+      "op": "Add2"
+    },
+    {
+      "offset": 22,
+      "op": "Push",
+      "args": [
+        3
+      ]
+    },
+    {
+      "offset": 30,
+      "op": "RandomNumber"
+    },
+    {
+      "offset": 31,
+      "op": "Push",
+      "args": [
+        1
+      ]
+    },
+    {
+      "offset": 39,
+      "op": "Add2"
+    },
+    {
+      "offset": 40,
+      "op": "Add2"
+    },
+    {
+      "offset": 41,
+      "op": "GotoFrame2"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "score"
+      ]
+    },
+    {
+      "offset": 10,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 11,
+      "op": "Push",
+      "args": [
+        "goal"
+      ]
+    },
+    {
+      "offset": 20,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 21,
+      "op": "Less2"
+    },
+    {
+      "offset": 22,
+      "op": "Not"
+    },
+    {
+      "offset": 23,
+      "op": "Not"
+    },
+    {
+      "offset": 24,
+      "op": "If",
+      "args": 11
+    },
+    {
+      "offset": 29,
+      "op": "GotoFrame",
+      "args": 93
+    },
+    {
+      "offset": 34,
+      "op": "Play"
+    },
+    {
+      "offset": 35,
+      "op": "Jump",
+      "args": 6
+    },
+    {
+      "offset": 40,
+      "op": "GotoFrame",
+      "args": 139
+    },
+    {
+      "offset": 45,
+      "op": "Play"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Stop"
+    },
+    {
+      "offset": 1,
+      "op": "Push",
+      "args": [
+        "/:strength",
+        0
+      ]
+    },
+    {
+      "offset": 25,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 26,
+      "op": "Push",
+      "args": [
+        "/:minerStrength",
+        10
+      ]
+    },
+    {
+      "offset": 51,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 52,
+      "op": "Push",
+      "args": [
+        "/:diamondBonus",
+        0
+      ]
+    },
+    {
+      "offset": 80,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 81,
+      "op": "Push",
+      "args": [
+        "/:rockBonus",
+        0
+      ]
+    },
+    {
+      "offset": 106,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 107,
+      "op": "Push",
+      "args": [
+        "/:cloverBonus",
+        0
+      ]
+    },
+    {
+      "offset": 134,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "",
+        4
+      ]
+    },
+    {
+      "offset": 10,
+      "op": "GetProperty"
+    },
+    {
+      "offset": 11,
+      "op": "Push",
+      "args": [
+        20
+      ]
+    },
+    {
+      "offset": 19,
+      "op": "RandomNumber"
+    },
+    {
+      "offset": 20,
+      "op": "Add2"
+    },
+    {
+      "offset": 21,
+      "op": "Push",
+      "args": [
+        1
+      ]
+    },
+    {
+      "offset": 29,
+      "op": "Add2"
+    },
+    {
+      "offset": 30,
+      "op": "GotoFrame2"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "price",
+        0
+      ]
+    },
+    {
+      "offset": 19,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 20,
+      "op": "Push",
+      "args": [
+        "/:stick"
+      ]
+    },
+    {
+      "offset": 32,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 33,
+      "op": "Push",
+      "args": [
+        5
+      ]
+    },
+    {
+      "offset": 41,
+      "op": "Less2"
+    },
+    {
+      "offset": 42,
+      "op": "Not"
+    },
+    {
+      "offset": 43,
+      "op": "Not"
+    },
+    {
+      "offset": 44,
+      "op": "If",
+      "args": 10
+    },
+    {
+      "offset": 49,
+      "op": "GotoFrame",
+      "args": 10
+    },
+    {
+      "offset": 54,
+      "op": "Jump",
+      "args": 5
+    },
+    {
+      "offset": 59,
+      "op": "GotoFrame",
+      "args": 1
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "ConstantPool"
+    },
+    {
+      "offset": 40,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        },
+        300
+      ]
+    },
+    {
+      "offset": 50,
+      "op": "RandomNumber"
+    },
+    {
+      "offset": 51,
+      "op": "Push",
+      "args": [
+        1
+      ]
+    },
+    {
+      "offset": 59,
+      "op": "Add2"
+    },
+    {
+      "offset": 60,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 61,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        },
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 68,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 69,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "offset": 74,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 75,
+      "op": "Push",
+      "args": [
+        2
+      ]
+    },
+    {
+      "offset": 83,
+      "op": "Multiply"
+    },
+    {
+      "offset": 84,
+      "op": "Add2"
+    },
+    {
+      "offset": 85,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 86,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 3
+        },
+        {
+          "type": 8,
+          "index": 4
+        },
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 95,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 96,
+      "op": "Add2"
+    },
+    {
+      "offset": 97,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "price",
+        0
+      ]
+    },
+    {
+      "offset": 19,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 20,
+      "op": "Push",
+      "args": [
+        10
+      ]
+    },
+    {
+      "offset": 28,
+      "op": "RandomNumber"
+    },
+    {
+      "offset": 29,
+      "op": "Push",
+      "args": [
+        1
+      ]
+    },
+    {
+      "offset": 37,
+      "op": "Add2"
+    },
+    {
+      "offset": 38,
+      "op": "Push",
+      "args": [
+        5
+      ]
+    },
+    {
+      "offset": 46,
+      "op": "Less2"
+    },
+    {
+      "offset": 47,
+      "op": "Not"
+    },
+    {
+      "offset": 48,
+      "op": "Not"
+    },
+    {
+      "offset": 49,
+      "op": "If",
+      "args": 10
+    },
+    {
+      "offset": 54,
+      "op": "GotoFrame",
+      "args": 10
+    },
+    {
+      "offset": 59,
+      "op": "Jump",
+      "args": 5
+    },
+    {
+      "offset": 64,
+      "op": "GotoFrame",
+      "args": 1
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "ConstantPool"
+    },
+    {
+      "offset": 22,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        },
+        300
+      ]
+    },
+    {
+      "offset": 32,
+      "op": "RandomNumber"
+    },
+    {
+      "offset": 33,
+      "op": "Push",
+      "args": [
+        100
+      ]
+    },
+    {
+      "offset": 41,
+      "op": "Add2"
+    },
+    {
+      "offset": 42,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 43,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        },
+        {
+          "type": 8,
+          "index": 2
+        },
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 52,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 53,
+      "op": "Add2"
+    },
+    {
+      "offset": 54,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "price",
+        0
+      ]
+    },
+    {
+      "offset": 19,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 20,
+      "op": "Push",
+      "args": [
+        10
+      ]
+    },
+    {
+      "offset": 28,
+      "op": "RandomNumber"
+    },
+    {
+      "offset": 29,
+      "op": "Push",
+      "args": [
+        1
+      ]
+    },
+    {
+      "offset": 37,
+      "op": "Add2"
+    },
+    {
+      "offset": 38,
+      "op": "Push",
+      "args": [
+        5
+      ]
+    },
+    {
+      "offset": 46,
+      "op": "Less2"
+    },
+    {
+      "offset": 47,
+      "op": "Not"
+    },
+    {
+      "offset": 48,
+      "op": "Not"
+    },
+    {
+      "offset": 49,
+      "op": "If",
+      "args": 10
+    },
+    {
+      "offset": 54,
+      "op": "GotoFrame",
+      "args": 10
+    },
+    {
+      "offset": 59,
+      "op": "Jump",
+      "args": 5
+    },
+    {
+      "offset": 64,
+      "op": "GotoFrame",
+      "args": 1
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "ConstantPool"
+    },
+    {
+      "offset": 52,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        },
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 59,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 60,
+      "op": "Push",
+      "args": [
+        50
+      ]
+    },
+    {
+      "offset": 68,
+      "op": "Multiply"
+    },
+    {
+      "offset": 69,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 70,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 2
+        },
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 77,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 78,
+      "op": "RandomNumber"
+    },
+    {
+      "offset": 79,
+      "op": "Push",
+      "args": [
+        1
+      ]
+    },
+    {
+      "offset": 87,
+      "op": "Add2"
+    },
+    {
+      "offset": 88,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 89,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 3
+        },
+        {
+          "type": 8,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "offset": 96,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 97,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 102,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 103,
+      "op": "Push",
+      "args": [
+        2
+      ]
+    },
+    {
+      "offset": 111,
+      "op": "Multiply"
+    },
+    {
+      "offset": 112,
+      "op": "Add2"
+    },
+    {
+      "offset": 113,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 114,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 4
+        },
+        {
+          "type": 8,
+          "index": 5
+        },
+        {
+          "type": 8,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "offset": 123,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 124,
+      "op": "Add2"
+    },
+    {
+      "offset": 125,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "price",
+        0
+      ]
+    },
+    {
+      "offset": 19,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 20,
+      "op": "Push",
+      "args": [
+        10
+      ]
+    },
+    {
+      "offset": 28,
+      "op": "RandomNumber"
+    },
+    {
+      "offset": 29,
+      "op": "Push",
+      "args": [
+        1
+      ]
+    },
+    {
+      "offset": 37,
+      "op": "Add2"
+    },
+    {
+      "offset": 38,
+      "op": "Push",
+      "args": [
+        7
+      ]
+    },
+    {
+      "offset": 46,
+      "op": "Less2"
+    },
+    {
+      "offset": 47,
+      "op": "Not"
+    },
+    {
+      "offset": 48,
+      "op": "Not"
+    },
+    {
+      "offset": 49,
+      "op": "If",
+      "args": 10
+    },
+    {
+      "offset": 54,
+      "op": "GotoFrame",
+      "args": 10
+    },
+    {
+      "offset": 59,
+      "op": "Jump",
+      "args": 5
+    },
+    {
+      "offset": 64,
+      "op": "GotoFrame",
+      "args": 1
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "ConstantPool"
+    },
+    {
+      "offset": 22,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        },
+        150
+      ]
+    },
+    {
+      "offset": 32,
+      "op": "RandomNumber"
+    },
+    {
+      "offset": 33,
+      "op": "Push",
+      "args": [
+        1
+      ]
+    },
+    {
+      "offset": 41,
+      "op": "Add2"
+    },
+    {
+      "offset": 42,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 43,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        },
+        {
+          "type": 8,
+          "index": 2
+        },
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 52,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 53,
+      "op": "Add2"
+    },
+    {
+      "offset": 54,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "price",
+        0
+      ]
+    },
+    {
+      "offset": 19,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 20,
+      "op": "Push",
+      "args": [
+        10
+      ]
+    },
+    {
+      "offset": 28,
+      "op": "RandomNumber"
+    },
+    {
+      "offset": 29,
+      "op": "Push",
+      "args": [
+        1
+      ]
+    },
+    {
+      "offset": 37,
+      "op": "Add2"
+    },
+    {
+      "offset": 38,
+      "op": "Push",
+      "args": [
+        6
+      ]
+    },
+    {
+      "offset": 46,
+      "op": "Less2"
+    },
+    {
+      "offset": 47,
+      "op": "Not"
+    },
+    {
+      "offset": 48,
+      "op": "Not"
+    },
+    {
+      "offset": 49,
+      "op": "If",
+      "args": 10
+    },
+    {
+      "offset": 54,
+      "op": "GotoFrame",
+      "args": 10
+    },
+    {
+      "offset": 59,
+      "op": "Jump",
+      "args": 5
+    },
+    {
+      "offset": 64,
+      "op": "GotoFrame",
+      "args": 1
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "ConstantPool"
+    },
+    {
+      "offset": 52,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        },
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 59,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 60,
+      "op": "Push",
+      "args": [
+        100
+      ]
+    },
+    {
+      "offset": 68,
+      "op": "Multiply"
+    },
+    {
+      "offset": 69,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 70,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 2
+        },
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 77,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 78,
+      "op": "RandomNumber"
+    },
+    {
+      "offset": 79,
+      "op": "Push",
+      "args": [
+        1
+      ]
+    },
+    {
+      "offset": 87,
+      "op": "Add2"
+    },
+    {
+      "offset": 88,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 89,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 3
+        },
+        {
+          "type": 8,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "offset": 96,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 97,
+      "op": "Push",
+      "args": [
+        200
+      ]
+    },
+    {
+      "offset": 105,
+      "op": "Add2"
+    },
+    {
+      "offset": 106,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 107,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 4
+        },
+        {
+          "type": 8,
+          "index": 5
+        },
+        {
+          "type": 8,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "offset": 116,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 117,
+      "op": "Add2"
+    },
+    {
+      "offset": 118,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "ConstantPool"
+    },
+    {
+      "offset": 50,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        },
+        100,
+        20,
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 67,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 68,
+      "op": "Multiply"
+    },
+    {
+      "offset": 69,
+      "op": "Add2"
+    },
+    {
+      "offset": 70,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 71,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 2
+        },
+        {
+          "type": 8,
+          "index": 3
+        },
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 80,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 81,
+      "op": "Add2"
+    },
+    {
+      "offset": 82,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 83,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 4
+        },
+        {
+          "type": 8,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "offset": 90,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 91,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 6
+        },
+        0
+      ]
+    },
+    {
+      "offset": 105,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Stop"
+    },
+    {
+      "offset": 1,
+      "op": "Push",
+      "args": [
+        0,
+        "_root"
+      ]
+    },
+    {
+      "offset": 20,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 21,
+      "op": "Push",
+      "args": [
+        "play"
+      ]
+    },
+    {
+      "offset": 30,
+      "op": "CallMethod"
+    },
+    {
+      "offset": 31,
+      "op": "Pop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Stop"
+    },
+    {
+      "offset": 1,
+      "op": "Push",
+      "args": [
+        0,
+        "_root"
+      ]
+    },
+    {
+      "offset": 20,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 21,
+      "op": "Push",
+      "args": [
+        "play"
+      ]
+    },
+    {
+      "offset": 30,
+      "op": "CallMethod"
+    },
+    {
+      "offset": 31,
+      "op": "Pop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "GotoFrame",
+      "args": 51
+    },
+    {
+      "offset": 5,
+      "op": "Play"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "endText",
+        "You scored ",
+        "_level0"
+      ]
+    },
+    {
+      "offset": 34,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 35,
+      "op": "Push",
+      "args": [
+        "score"
+      ]
+    },
+    {
+      "offset": 45,
+      "op": "GetMember"
+    },
+    {
+      "offset": 46,
+      "op": "Add2"
+    },
+    {
+      "offset": 47,
+      "op": "Push",
+      "args": [
+        " Points at Gold Miner!"
+      ]
+    },
+    {
+      "offset": 74,
+      "op": "Add2"
+    },
+    {
+      "offset": 75,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "things",
+        15
+      ]
+    },
+    {
+      "offset": 16,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 17,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "time",
+        "/:time"
+      ]
+    },
+    {
+      "offset": 17,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 18,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "ConstantPool"
+    },
+    {
+      "offset": 39,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        },
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 46,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 47,
+      "op": "Push",
+      "args": [
+        1
+      ]
+    },
+    {
+      "offset": 55,
+      "op": "Subtract"
+    },
+    {
+      "offset": 56,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 57,
+      "op": "Push",
+      "args": [
+        0,
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 71,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 72,
+      "op": "Less2"
+    },
+    {
+      "offset": 73,
+      "op": "Not"
+    },
+    {
+      "offset": 74,
+      "op": "Not"
+    },
+    {
+      "offset": 75,
+      "op": "If",
+      "args": 72
+    },
+    {
+      "offset": 80,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        },
+        0
+      ]
+    },
+    {
+      "offset": 94,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 95,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 100,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 101,
+      "op": "Push",
+      "args": [
+        1
+      ]
+    },
+    {
+      "offset": 109,
+      "op": "Equals2"
+    },
+    {
+      "offset": 110,
+      "op": "Not"
+    },
+    {
+      "offset": 111,
+      "op": "If",
+      "args": 11
+    },
+    {
+      "offset": 116,
+      "op": "GotoFrame",
+      "args": 1
+    },
+    {
+      "offset": 121,
+      "op": "Play"
+    },
+    {
+      "offset": 122,
+      "op": "Jump",
+      "args": 20
+    },
+    {
+      "offset": 127,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 2
+        },
+        1,
+        {
+          "type": 8,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "offset": 139,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 140,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "offset": 145,
+      "op": "CallMethod"
+    },
+    {
+      "offset": 146,
+      "op": "Pop"
+    },
+    {
+      "offset": 147,
+      "op": "Jump",
+      "args": 36
+    },
+    {
+      "offset": 152,
+      "op": "Push",
+      "args": [
+        10,
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 162,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 163,
+      "op": "Less2"
+    },
+    {
+      "offset": 164,
+      "op": "Not"
+    },
+    {
+      "offset": 165,
+      "op": "Not"
+    },
+    {
+      "offset": 166,
+      "op": "If",
+      "args": 11
+    },
+    {
+      "offset": 171,
+      "op": "GotoFrame",
+      "args": 19
+    },
+    {
+      "offset": 176,
+      "op": "Play"
+    },
+    {
+      "offset": 177,
+      "op": "Jump",
+      "args": 6
+    },
+    {
+      "offset": 182,
+      "op": "GotoFrame",
+      "args": 1
+    },
+    {
+      "offset": 187,
+      "op": "Play"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "GotoFrame",
+      "args": 1
+    },
+    {
+      "offset": 5,
+      "op": "Play"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "object",
+        2
+      ]
+    },
+    {
+      "offset": 16,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 17,
+      "op": "Push",
+      "args": [
+        "price",
+        50
+      ]
+    },
+    {
+      "offset": 32,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 33,
+      "op": "Push",
+      "args": [
+        "weight",
+        3
+      ]
+    },
+    {
+      "offset": 49,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "object",
+        5
+      ]
+    },
+    {
+      "offset": 16,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 17,
+      "op": "Push",
+      "args": [
+        "price",
+        500
+      ]
+    },
+    {
+      "offset": 32,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 33,
+      "op": "Push",
+      "args": [
+        "weight",
+        9
+      ]
+    },
+    {
+      "offset": 49,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "ConstantPool"
+    },
+    {
+      "offset": 37,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        },
+        8
+      ]
+    },
+    {
+      "offset": 47,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 48,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 53,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 54,
+      "op": "Push",
+      "args": [
+        1
+      ]
+    },
+    {
+      "offset": 62,
+      "op": "Equals2"
+    },
+    {
+      "offset": 63,
+      "op": "Not"
+    },
+    {
+      "offset": 64,
+      "op": "If",
+      "args": 16
+    },
+    {
+      "offset": 69,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 2
+        },
+        60
+      ]
+    },
+    {
+      "offset": 79,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 80,
+      "op": "Jump",
+      "args": 11
+    },
+    {
+      "offset": 85,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 2
+        },
+        20
+      ]
+    },
+    {
+      "offset": 95,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 96,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 3
+        },
+        9
+      ]
+    },
+    {
+      "offset": 106,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "ConstantPool"
+    },
+    {
+      "offset": 67,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        },
+        12
+      ]
+    },
+    {
+      "offset": 77,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 78,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 83,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 84,
+      "op": "Push",
+      "args": [
+        1
+      ]
+    },
+    {
+      "offset": 92,
+      "op": "Equals2"
+    },
+    {
+      "offset": 93,
+      "op": "Not"
+    },
+    {
+      "offset": 94,
+      "op": "If",
+      "args": 146
+    },
+    {
+      "offset": 99,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 2
+        },
+        6
+      ]
+    },
+    {
+      "offset": 109,
+      "op": "RandomNumber"
+    },
+    {
+      "offset": 110,
+      "op": "Push",
+      "args": [
+        1
+      ]
+    },
+    {
+      "offset": 118,
+      "op": "Add2"
+    },
+    {
+      "offset": 119,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 120,
+      "op": "Push",
+      "args": [
+        2,
+        {
+          "type": 8,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "offset": 130,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 131,
+      "op": "Less2"
+    },
+    {
+      "offset": 132,
+      "op": "Not"
+    },
+    {
+      "offset": 133,
+      "op": "Not"
+    },
+    {
+      "offset": 134,
+      "op": "If",
+      "args": 13
+    },
+    {
+      "offset": 139,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 3
+        },
+        {
+          "type": 8,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "offset": 146,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 147,
+      "op": "Jump",
+      "args": 88
+    },
+    {
+      "offset": 152,
+      "op": "Push",
+      "args": [
+        4,
+        {
+          "type": 8,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "offset": 162,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 163,
+      "op": "Less2"
+    },
+    {
+      "offset": 164,
+      "op": "Not"
+    },
+    {
+      "offset": 165,
+      "op": "Not"
+    },
+    {
+      "offset": 166,
+      "op": "If",
+      "args": 58
+    },
+    {
+      "offset": 171,
+      "op": "Push",
+      "args": [
+        3,
+        {
+          "type": 8,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "offset": 181,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 182,
+      "op": "Less2"
+    },
+    {
+      "offset": 183,
+      "op": "Not"
+    },
+    {
+      "offset": 184,
+      "op": "Not"
+    },
+    {
+      "offset": 185,
+      "op": "If",
+      "args": 13
+    },
+    {
+      "offset": 190,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 3
+        },
+        {
+          "type": 8,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "offset": 197,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 198,
+      "op": "Jump",
+      "args": 21
+    },
+    {
+      "offset": 203,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 3
+        },
+        300
+      ]
+    },
+    {
+      "offset": 213,
+      "op": "RandomNumber"
+    },
+    {
+      "offset": 214,
+      "op": "Push",
+      "args": [
+        300
+      ]
+    },
+    {
+      "offset": 222,
+      "op": "Add2"
+    },
+    {
+      "offset": 223,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 224,
+      "op": "Jump",
+      "args": 11
+    },
+    {
+      "offset": 229,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 3
+        },
+        700
+      ]
+    },
+    {
+      "offset": 239,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 240,
+      "op": "Jump",
+      "args": 190
+    },
+    {
+      "offset": 245,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 2
+        },
+        6
+      ]
+    },
+    {
+      "offset": 255,
+      "op": "RandomNumber"
+    },
+    {
+      "offset": 256,
+      "op": "Push",
+      "args": [
+        1
+      ]
+    },
+    {
+      "offset": 264,
+      "op": "Add2"
+    },
+    {
+      "offset": 265,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 266,
+      "op": "Push",
+      "args": [
+        3,
+        {
+          "type": 8,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "offset": 276,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 277,
+      "op": "Less2"
+    },
+    {
+      "offset": 278,
+      "op": "Not"
+    },
+    {
+      "offset": 279,
+      "op": "Not"
+    },
+    {
+      "offset": 280,
+      "op": "If",
+      "args": 26
+    },
+    {
+      "offset": 285,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 3
+        },
+        600
+      ]
+    },
+    {
+      "offset": 295,
+      "op": "RandomNumber"
+    },
+    {
+      "offset": 296,
+      "op": "Push",
+      "args": [
+        1
+      ]
+    },
+    {
+      "offset": 304,
+      "op": "Add2"
+    },
+    {
+      "offset": 305,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 306,
+      "op": "Jump",
+      "args": 124
+    },
+    {
+      "offset": 311,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "offset": 316,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 317,
+      "op": "Push",
+      "args": [
+        4
+      ]
+    },
+    {
+      "offset": 325,
+      "op": "Equals2"
+    },
+    {
+      "offset": 326,
+      "op": "Not"
+    },
+    {
+      "offset": 327,
+      "op": "If",
+      "args": 13
+    },
+    {
+      "offset": 332,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 3
+        },
+        {
+          "type": 8,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "offset": 339,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 340,
+      "op": "Jump",
+      "args": 90
+    },
+    {
+      "offset": 345,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "offset": 350,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 351,
+      "op": "Push",
+      "args": [
+        5
+      ]
+    },
+    {
+      "offset": 359,
+      "op": "Equals2"
+    },
+    {
+      "offset": 360,
+      "op": "Not"
+    },
+    {
+      "offset": 361,
+      "op": "If",
+      "args": 58
+    },
+    {
+      "offset": 366,
+      "op": "Push",
+      "args": [
+        3,
+        {
+          "type": 8,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "offset": 376,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 377,
+      "op": "Less2"
+    },
+    {
+      "offset": 378,
+      "op": "Not"
+    },
+    {
+      "offset": 379,
+      "op": "Not"
+    },
+    {
+      "offset": 380,
+      "op": "If",
+      "args": 13
+    },
+    {
+      "offset": 385,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 3
+        },
+        {
+          "type": 8,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "offset": 392,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 393,
+      "op": "Jump",
+      "args": 21
+    },
+    {
+      "offset": 398,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 3
+        },
+        100
+      ]
+    },
+    {
+      "offset": 408,
+      "op": "RandomNumber"
+    },
+    {
+      "offset": 409,
+      "op": "Push",
+      "args": [
+        100
+      ]
+    },
+    {
+      "offset": 417,
+      "op": "Add2"
+    },
+    {
+      "offset": 418,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 419,
+      "op": "Jump",
+      "args": 11
+    },
+    {
+      "offset": 424,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 3
+        },
+        800
+      ]
+    },
+    {
+      "offset": 434,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 435,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 7
+        },
+        4
+      ]
+    },
+    {
+      "offset": 445,
+      "op": "RandomNumber"
+    },
+    {
+      "offset": 446,
+      "op": "Push",
+      "args": [
+        1
+      ]
+    },
+    {
+      "offset": 454,
+      "op": "Add2"
+    },
+    {
+      "offset": 455,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 456,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 7
+        }
+      ]
+    },
+    {
+      "offset": 461,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 462,
+      "op": "Push",
+      "args": [
+        1
+      ]
+    },
+    {
+      "offset": 470,
+      "op": "Equals2"
+    },
+    {
+      "offset": 471,
+      "op": "Not"
+    },
+    {
+      "offset": 472,
+      "op": "If",
+      "args": 26
+    },
+    {
+      "offset": 477,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 8
+        },
+        9
+      ]
+    },
+    {
+      "offset": 487,
+      "op": "RandomNumber"
+    },
+    {
+      "offset": 488,
+      "op": "Push",
+      "args": [
+        1
+      ]
+    },
+    {
+      "offset": 496,
+      "op": "Add2"
+    },
+    {
+      "offset": 497,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 498,
+      "op": "Jump",
+      "args": 126
+    },
+    {
+      "offset": 503,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 7
+        }
+      ]
+    },
+    {
+      "offset": 508,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 509,
+      "op": "Push",
+      "args": [
+        2
+      ]
+    },
+    {
+      "offset": 517,
+      "op": "Equals2"
+    },
+    {
+      "offset": 518,
+      "op": "Not"
+    },
+    {
+      "offset": 519,
+      "op": "If",
+      "args": 35
+    },
+    {
+      "offset": 524,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 8
+        },
+        5
+      ]
+    },
+    {
+      "offset": 534,
+      "op": "RandomNumber"
+    },
+    {
+      "offset": 535,
+      "op": "Push",
+      "args": [
+        1
+      ]
+    },
+    {
+      "offset": 543,
+      "op": "Add2"
+    },
+    {
+      "offset": 544,
+      "op": "Push",
+      "args": [
+        -1
+      ]
+    },
+    {
+      "offset": 552,
+      "op": "Multiply"
+    },
+    {
+      "offset": 553,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 554,
+      "op": "Jump",
+      "args": 70
+    },
+    {
+      "offset": 559,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 7
+        }
+      ]
+    },
+    {
+      "offset": 564,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 565,
+      "op": "Push",
+      "args": [
+        3
+      ]
+    },
+    {
+      "offset": 573,
+      "op": "Equals2"
+    },
+    {
+      "offset": 574,
+      "op": "Not"
+    },
+    {
+      "offset": 575,
+      "op": "If",
+      "args": 16
+    },
+    {
+      "offset": 580,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 8
+        },
+        9
+      ]
+    },
+    {
+      "offset": 590,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 591,
+      "op": "Jump",
+      "args": 33
+    },
+    {
+      "offset": 596,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 7
+        }
+      ]
+    },
+    {
+      "offset": 601,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 602,
+      "op": "Push",
+      "args": [
+        4
+      ]
+    },
+    {
+      "offset": 610,
+      "op": "Less2"
+    },
+    {
+      "offset": 611,
+      "op": "Not"
+    },
+    {
+      "offset": 612,
+      "op": "Not"
+    },
+    {
+      "offset": 613,
+      "op": "If",
+      "args": 11
+    },
+    {
+      "offset": 618,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 8
+        },
+        -1
+      ]
+    },
+    {
+      "offset": 628,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "object",
+        3
+      ]
+    },
+    {
+      "offset": 16,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 17,
+      "op": "Push",
+      "args": [
+        "price",
+        100
+      ]
+    },
+    {
+      "offset": 32,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 33,
+      "op": "Push",
+      "args": [
+        "weight",
+        7
+      ]
+    },
+    {
+      "offset": 49,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "ConstantPool"
+    },
+    {
+      "offset": 37,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        },
+        14
+      ]
+    },
+    {
+      "offset": 47,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 48,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 53,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 54,
+      "op": "Push",
+      "args": [
+        1
+      ]
+    },
+    {
+      "offset": 62,
+      "op": "Equals2"
+    },
+    {
+      "offset": 63,
+      "op": "Not"
+    },
+    {
+      "offset": 64,
+      "op": "If",
+      "args": 16
+    },
+    {
+      "offset": 69,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 2
+        },
+        33
+      ]
+    },
+    {
+      "offset": 79,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 80,
+      "op": "Jump",
+      "args": 11
+    },
+    {
+      "offset": 85,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 2
+        },
+        11
+      ]
+    },
+    {
+      "offset": 95,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 96,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 3
+        },
+        8
+      ]
+    },
+    {
+      "offset": 106,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "",
+        4
+      ]
+    },
+    {
+      "offset": 10,
+      "op": "GetProperty"
+    },
+    {
+      "offset": 11,
+      "op": "Push",
+      "args": [
+        45
+      ]
+    },
+    {
+      "offset": 19,
+      "op": "RandomNumber"
+    },
+    {
+      "offset": 20,
+      "op": "Add2"
+    },
+    {
+      "offset": 21,
+      "op": "Push",
+      "args": [
+        1
+      ]
+    },
+    {
+      "offset": 29,
+      "op": "Add2"
+    },
+    {
+      "offset": 30,
+      "op": "GotoFrame2"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "GotoFrame",
+      "args": 0
+    },
+    {
+      "offset": 5,
+      "op": "Play"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "GotoFrame",
+      "args": 0
+    },
+    {
+      "offset": 5,
+      "op": "Play"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        2,
+        1,
+        "_root"
+      ]
+    },
+    {
+      "offset": 20,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 21,
+      "op": "Push",
+      "args": [
+        "C"
+      ]
+    },
+    {
+      "offset": 27,
+      "op": "GetMember"
+    },
+    {
+      "offset": 28,
+      "op": "Push",
+      "args": [
+        "cl"
+      ]
+    },
+    {
+      "offset": 35,
+      "op": "GetMember"
+    },
+    {
+      "offset": 36,
+      "op": "Push",
+      "args": [
+        "d"
+      ]
+    },
+    {
+      "offset": 42,
+      "op": "GetMember"
+    },
+    {
+      "offset": 43,
+      "op": "Push",
+      "args": [
+        "gotoAndStop"
+      ]
+    },
+    {
+      "offset": 59,
+      "op": "CallMethod"
+    },
+    {
+      "offset": 60,
+      "op": "Pop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "GotoFrame",
+      "args": 0
+    },
+    {
+      "offset": 5,
+      "op": "Play"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "ConstantPool"
+    },
+    {
+      "offset": 57,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        },
+        1
+      ]
+    },
+    {
+      "offset": 67,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 68,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 73,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 74,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 79,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 80,
+      "op": "Less2"
+    },
+    {
+      "offset": 81,
+      "op": "Not"
+    },
+    {
+      "offset": 82,
+      "op": "Not"
+    },
+    {
+      "offset": 83,
+      "op": "If",
+      "args": 80
+    },
+    {
+      "offset": 88,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 2
+        },
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 95,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 96,
+      "op": "Add2"
+    },
+    {
+      "offset": 97,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "offset": 102,
+      "op": "Add2"
+    },
+    {
+      "offset": 103,
+      "op": "Push",
+      "args": [
+        1,
+        {
+          "type": 8,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "offset": 113,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 114,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "offset": 119,
+      "op": "CallMethod"
+    },
+    {
+      "offset": 120,
+      "op": "Not"
+    },
+    {
+      "offset": 121,
+      "op": "If",
+      "args": 27
+    },
+    {
+      "offset": 126,
+      "op": "Push",
+      "args": [
+        2,
+        1,
+        {
+          "type": 8,
+          "index": 2
+        },
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 143,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 144,
+      "op": "Add2"
+    },
+    {
+      "offset": 145,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 146,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "offset": 151,
+      "op": "CallMethod"
+    },
+    {
+      "offset": 152,
+      "op": "Pop"
+    },
+    {
+      "offset": 153,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        },
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 160,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 161,
+      "op": "0x50"
+    },
+    {
+      "offset": 162,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 163,
+      "op": "Jump",
+      "args": -100
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "ConstantPool"
+    },
+    {
+      "offset": 80,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 85,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 86,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        },
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 93,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 94,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 99,
+      "op": "GetMember"
+    },
+    {
+      "offset": 100,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 105,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 106,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 111,
+      "op": "GetMember"
+    },
+    {
+      "offset": 112,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "offset": 117,
+      "op": "GetMember"
+    },
+    {
+      "offset": 118,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 123,
+      "op": "GetMember"
+    },
+    {
+      "offset": 124,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 129,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 130,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 135,
+      "op": "GetMember"
+    },
+    {
+      "offset": 136,
+      "op": "Subtract"
+    },
+    {
+      "offset": 137,
+      "op": "Push",
+      "args": [
+        0.5
+      ]
+    },
+    {
+      "offset": 149,
+      "op": "Multiply"
+    },
+    {
+      "offset": 150,
+      "op": "Add2"
+    },
+    {
+      "offset": 151,
+      "op": "SetMember"
+    },
+    {
+      "offset": 152,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 157,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 158,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 3
+        },
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 165,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 166,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "offset": 171,
+      "op": "GetMember"
+    },
+    {
+      "offset": 172,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 177,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 178,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 183,
+      "op": "GetMember"
+    },
+    {
+      "offset": 184,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "offset": 189,
+      "op": "GetMember"
+    },
+    {
+      "offset": 190,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "offset": 195,
+      "op": "GetMember"
+    },
+    {
+      "offset": 196,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 201,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 202,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "offset": 207,
+      "op": "GetMember"
+    },
+    {
+      "offset": 208,
+      "op": "Subtract"
+    },
+    {
+      "offset": 209,
+      "op": "Push",
+      "args": [
+        0.5
+      ]
+    },
+    {
+      "offset": 221,
+      "op": "Multiply"
+    },
+    {
+      "offset": 222,
+      "op": "Add2"
+    },
+    {
+      "offset": 223,
+      "op": "SetMember"
+    },
+    {
+      "offset": 224,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 229,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 230,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 235,
+      "op": "GetMember"
+    },
+    {
+      "offset": 236,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "offset": 241,
+      "op": "GetMember"
+    },
+    {
+      "offset": 242,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "offset": 247,
+      "op": "GetMember"
+    },
+    {
+      "offset": 248,
+      "op": "Push",
+      "args": [
+        1,
+        {
+          "type": 8,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "offset": 258,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 259,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "offset": 264,
+      "op": "CallMethod"
+    },
+    {
+      "offset": 265,
+      "op": "Not"
+    },
+    {
+      "offset": 266,
+      "op": "If",
+      "args": 107
+    },
+    {
+      "offset": 271,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 276,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 277,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 282,
+      "op": "GetMember"
+    },
+    {
+      "offset": 283,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 7
+        },
+        0
+      ]
+    },
+    {
+      "offset": 297,
+      "op": "SetMember"
+    },
+    {
+      "offset": 298,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 303,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 304,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 309,
+      "op": "GetMember"
+    },
+    {
+      "offset": 310,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 8
+        },
+        1
+      ]
+    },
+    {
+      "offset": 320,
+      "op": "SetMember"
+    },
+    {
+      "offset": 321,
+      "op": "Push",
+      "args": [
+        20,
+        1,
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 336,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 337,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 342,
+      "op": "GetMember"
+    },
+    {
+      "offset": 343,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "offset": 348,
+      "op": "GetMember"
+    },
+    {
+      "offset": 349,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 9
+        }
+      ]
+    },
+    {
+      "offset": 354,
+      "op": "CallMethod"
+    },
+    {
+      "offset": 355,
+      "op": "Pop"
+    },
+    {
+      "offset": 356,
+      "op": "Push",
+      "args": [
+        0,
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 370,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 371,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 10
+        }
+      ]
+    },
+    {
+      "offset": 376,
+      "op": "CallMethod"
+    },
+    {
+      "offset": 377,
+      "op": "Pop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "speedx",
+        3
+      ]
+    },
+    {
+      "offset": 16,
+      "op": "RandomNumber"
+    },
+    {
+      "offset": 17,
+      "op": "Push",
+      "args": [
+        1
+      ]
+    },
+    {
+      "offset": 25,
+      "op": "Subtract"
+    },
+    {
+      "offset": 26,
+      "op": "Push",
+      "args": [
+        75
+      ]
+    },
+    {
+      "offset": 34,
+      "op": "Divide"
+    },
+    {
+      "offset": 35,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 36,
+      "op": "Push",
+      "args": [
+        "speedy",
+        3
+      ]
+    },
+    {
+      "offset": 52,
+      "op": "RandomNumber"
+    },
+    {
+      "offset": 53,
+      "op": "Push",
+      "args": [
+        1
+      ]
+    },
+    {
+      "offset": 61,
+      "op": "Add2"
+    },
+    {
+      "offset": 62,
+      "op": "Push",
+      "args": [
+        75
+      ]
+    },
+    {
+      "offset": 70,
+      "op": "Divide"
+    },
+    {
+      "offset": 71,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 72,
+      "op": "Push",
+      "args": [
+        "life",
+        30
+      ]
+    },
+    {
+      "offset": 86,
+      "op": "RandomNumber"
+    },
+    {
+      "offset": 87,
+      "op": "Push",
+      "args": [
+        20
+      ]
+    },
+    {
+      "offset": 95,
+      "op": "Add2"
+    },
+    {
+      "offset": 96,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 97,
+      "op": "Push",
+      "args": [
+        "ap2",
+        10
+      ]
+    },
+    {
+      "offset": 110,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "ConstantPool"
+    },
+    {
+      "offset": 42,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        },
+        {
+          "type": 8,
+          "index": 1
+        },
+        0
+      ]
+    },
+    {
+      "offset": 58,
+      "op": "GetProperty"
+    },
+    {
+      "offset": 59,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 60,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 2
+        },
+        {
+          "type": 8,
+          "index": 1
+        },
+        1
+      ]
+    },
+    {
+      "offset": 72,
+      "op": "GetProperty"
+    },
+    {
+      "offset": 73,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 74,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        },
+        0,
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 86,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 87,
+      "op": "0x4a"
+    },
+    {
+      "offset": 88,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "offset": 93,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 94,
+      "op": "0x4a"
+    },
+    {
+      "offset": 95,
+      "op": "Add2"
+    },
+    {
+      "offset": 96,
+      "op": "SetProperty"
+    },
+    {
+      "offset": 97,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        },
+        1,
+        {
+          "type": 8,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "offset": 109,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 110,
+      "op": "0x4a"
+    },
+    {
+      "offset": 111,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "offset": 116,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 117,
+      "op": "0x4a"
+    },
+    {
+      "offset": 118,
+      "op": "Add2"
+    },
+    {
+      "offset": 119,
+      "op": "SetProperty"
+    },
+    {
+      "offset": 120,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 5
+        },
+        75,
+        {
+          "type": 8,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "offset": 132,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 133,
+      "op": "Multiply"
+    },
+    {
+      "offset": 134,
+      "op": "Push",
+      "args": [
+        70
+      ]
+    },
+    {
+      "offset": 142,
+      "op": "Divide"
+    },
+    {
+      "offset": 143,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 144,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        },
+        6,
+        {
+          "type": 8,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "offset": 156,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 157,
+      "op": "SetProperty"
+    },
+    {
+      "offset": 158,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        },
+        2,
+        {
+          "type": 8,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "offset": 170,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 171,
+      "op": "Push",
+      "args": [
+        0.5
+      ]
+    },
+    {
+      "offset": 183,
+      "op": "Multiply"
+    },
+    {
+      "offset": 184,
+      "op": "SetProperty"
+    },
+    {
+      "offset": 185,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        },
+        3,
+        {
+          "type": 8,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "offset": 197,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 198,
+      "op": "Push",
+      "args": [
+        0.5
+      ]
+    },
+    {
+      "offset": 210,
+      "op": "Multiply"
+    },
+    {
+      "offset": 211,
+      "op": "SetProperty"
+    },
+    {
+      "offset": 212,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 3
+        },
+        {
+          "type": 8,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "offset": 219,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 220,
+      "op": "0x4a"
+    },
+    {
+      "offset": 221,
+      "op": "Push",
+      "args": [
+        51
+      ]
+    },
+    {
+      "offset": 229,
+      "op": "RandomNumber"
+    },
+    {
+      "offset": 230,
+      "op": "Push",
+      "args": [
+        25
+      ]
+    },
+    {
+      "offset": 238,
+      "op": "Subtract"
+    },
+    {
+      "offset": 239,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 7
+        }
+      ]
+    },
+    {
+      "offset": 244,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 245,
+      "op": "Divide"
+    },
+    {
+      "offset": 246,
+      "op": "0x4a"
+    },
+    {
+      "offset": 247,
+      "op": "Subtract"
+    },
+    {
+      "offset": 248,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 249,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 4
+        },
+        {
+          "type": 8,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "offset": 256,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 257,
+      "op": "0x4a"
+    },
+    {
+      "offset": 258,
+      "op": "Push",
+      "args": [
+        51
+      ]
+    },
+    {
+      "offset": 266,
+      "op": "RandomNumber"
+    },
+    {
+      "offset": 267,
+      "op": "Push",
+      "args": [
+        25
+      ]
+    },
+    {
+      "offset": 275,
+      "op": "Subtract"
+    },
+    {
+      "offset": 276,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 7
+        }
+      ]
+    },
+    {
+      "offset": 281,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 282,
+      "op": "Divide"
+    },
+    {
+      "offset": 283,
+      "op": "0x4a"
+    },
+    {
+      "offset": 284,
+      "op": "Subtract"
+    },
+    {
+      "offset": 285,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 286,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 6
+        },
+        {
+          "type": 8,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "offset": 293,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 294,
+      "op": "Push",
+      "args": [
+        1
+      ]
+    },
+    {
+      "offset": 302,
+      "op": "Subtract"
+    },
+    {
+      "offset": 303,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 304,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 7
+        },
+        {
+          "type": 8,
+          "index": 7
+        }
+      ]
+    },
+    {
+      "offset": 311,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 312,
+      "op": "Push",
+      "args": [
+        100
+      ]
+    },
+    {
+      "offset": 320,
+      "op": "Add2"
+    },
+    {
+      "offset": 321,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 322,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "offset": 327,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 328,
+      "op": "0x4a"
+    },
+    {
+      "offset": 329,
+      "op": "Push",
+      "args": [
+        0
+      ]
+    },
+    {
+      "offset": 341,
+      "op": "Less2"
+    },
+    {
+      "offset": 342,
+      "op": "Not"
+    },
+    {
+      "offset": 343,
+      "op": "If",
+      "args": 7
+    },
+    {
+      "offset": 348,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 353,
+      "op": "RemoveSprite"
+    },
+    {
+      "offset": 354,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "",
+        4
+      ]
+    },
+    {
+      "offset": 10,
+      "op": "GetProperty"
+    },
+    {
+      "offset": 11,
+      "op": "Push",
+      "args": [
+        1
+      ]
+    },
+    {
+      "offset": 19,
+      "op": "Subtract"
+    },
+    {
+      "offset": 20,
+      "op": "GotoFrame2"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "ConstantPool"
+    },
+    {
+      "offset": 40,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        },
+        11
+      ]
+    },
+    {
+      "offset": 50,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 51,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 56,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 57,
+      "op": "Push",
+      "args": [
+        1
+      ]
+    },
+    {
+      "offset": 65,
+      "op": "Equals2"
+    },
+    {
+      "offset": 66,
+      "op": "Not"
+    },
+    {
+      "offset": 67,
+      "op": "If",
+      "args": 16
+    },
+    {
+      "offset": 72,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 2
+        },
+        900
+      ]
+    },
+    {
+      "offset": 82,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 83,
+      "op": "Jump",
+      "args": 11
+    },
+    {
+      "offset": 88,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 2
+        },
+        600
+      ]
+    },
+    {
+      "offset": 98,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 99,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 3
+        },
+        2
+      ]
+    },
+    {
+      "offset": 109,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "ConstantPool"
+    },
+    {
+      "offset": 20,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 25,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 26,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 31,
+      "op": "GetMember"
+    },
+    {
+      "offset": 32,
+      "op": "Push",
+      "args": [
+        1
+      ]
+    },
+    {
+      "offset": 40,
+      "op": "Less2"
+    },
+    {
+      "offset": 41,
+      "op": "Not"
+    },
+    {
+      "offset": 42,
+      "op": "Not"
+    },
+    {
+      "offset": 43,
+      "op": "If",
+      "args": 21
+    },
+    {
+      "offset": 48,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 53,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 54,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 59,
+      "op": "GetMember"
+    },
+    {
+      "offset": 60,
+      "op": "GotoFrame2"
+    },
+    {
+      "offset": 64,
+      "op": "Jump",
+      "args": 1
+    },
+    {
+      "offset": 69,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "ConstantPool"
+    },
+    {
+      "offset": 154,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        },
+        1
+      ]
+    },
+    {
+      "offset": 164,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 165,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 170,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 171,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 176,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 177,
+      "op": "Less2"
+    },
+    {
+      "offset": 178,
+      "op": "Not"
+    },
+    {
+      "offset": 179,
+      "op": "Not"
+    },
+    {
+      "offset": 180,
+      "op": "If",
+      "args": 293
+    },
+    {
+      "offset": 185,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 2
+        },
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 192,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 193,
+      "op": "Add2"
+    },
+    {
+      "offset": 194,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "offset": 199,
+      "op": "Add2"
+    },
+    {
+      "offset": 200,
+      "op": "Push",
+      "args": [
+        1,
+        {
+          "type": 8,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "offset": 210,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 211,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "offset": 216,
+      "op": "CallMethod"
+    },
+    {
+      "offset": 217,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "offset": 222,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 223,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 7
+        }
+      ]
+    },
+    {
+      "offset": 228,
+      "op": "GetMember"
+    },
+    {
+      "offset": 229,
+      "op": "Push",
+      "args": [
+        0
+      ]
+    },
+    {
+      "offset": 241,
+      "op": "Equals2"
+    },
+    {
+      "offset": 242,
+      "op": "And"
+    },
+    {
+      "offset": 243,
+      "op": "Not"
+    },
+    {
+      "offset": 244,
+      "op": "If",
+      "args": 214
+    },
+    {
+      "offset": 249,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "offset": 254,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 255,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 7
+        },
+        1
+      ]
+    },
+    {
+      "offset": 265,
+      "op": "SetMember"
+    },
+    {
+      "offset": 266,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "offset": 271,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 272,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 8
+        },
+        {
+          "type": 8,
+          "index": 2
+        },
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 281,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 282,
+      "op": "Add2"
+    },
+    {
+      "offset": 283,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 9
+        }
+      ]
+    },
+    {
+      "offset": 288,
+      "op": "Add2"
+    },
+    {
+      "offset": 289,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 290,
+      "op": "SetMember"
+    },
+    {
+      "offset": 291,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "offset": 296,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 297,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 10
+        },
+        {
+          "type": 8,
+          "index": 2
+        },
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 306,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 307,
+      "op": "Add2"
+    },
+    {
+      "offset": 308,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 11
+        }
+      ]
+    },
+    {
+      "offset": 313,
+      "op": "Add2"
+    },
+    {
+      "offset": 314,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 315,
+      "op": "SetMember"
+    },
+    {
+      "offset": 316,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "offset": 321,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 322,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 12
+        },
+        {
+          "type": 8,
+          "index": 2
+        },
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 331,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 332,
+      "op": "Add2"
+    },
+    {
+      "offset": 333,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 13
+        }
+      ]
+    },
+    {
+      "offset": 338,
+      "op": "Add2"
+    },
+    {
+      "offset": 339,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 340,
+      "op": "SetMember"
+    },
+    {
+      "offset": 341,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "offset": 346,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 347,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 10
+        }
+      ]
+    },
+    {
+      "offset": 352,
+      "op": "GetMember"
+    },
+    {
+      "offset": 353,
+      "op": "Push",
+      "args": [
+        1,
+        {
+          "type": 8,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "offset": 363,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 364,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 14
+        }
+      ]
+    },
+    {
+      "offset": 369,
+      "op": "GetMember"
+    },
+    {
+      "offset": 370,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 15
+        }
+      ]
+    },
+    {
+      "offset": 375,
+      "op": "CallMethod"
+    },
+    {
+      "offset": 376,
+      "op": "Pop"
+    },
+    {
+      "offset": 377,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 16
+        },
+        1,
+        {
+          "type": 8,
+          "index": 17
+        }
+      ]
+    },
+    {
+      "offset": 389,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 390,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 18
+        }
+      ]
+    },
+    {
+      "offset": 395,
+      "op": "GetMember"
+    },
+    {
+      "offset": 396,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 15
+        }
+      ]
+    },
+    {
+      "offset": 401,
+      "op": "CallMethod"
+    },
+    {
+      "offset": 402,
+      "op": "Pop"
+    },
+    {
+      "offset": 403,
+      "op": "Push",
+      "args": [
+        2,
+        1,
+        {
+          "type": 8,
+          "index": 2
+        },
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 420,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 421,
+      "op": "Add2"
+    },
+    {
+      "offset": 422,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 423,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 15
+        }
+      ]
+    },
+    {
+      "offset": 428,
+      "op": "CallMethod"
+    },
+    {
+      "offset": 429,
+      "op": "Pop"
+    },
+    {
+      "offset": 430,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 16
+        },
+        {
+          "type": 8,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "offset": 437,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 438,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 16
+        }
+      ]
+    },
+    {
+      "offset": 443,
+      "op": "GetMember"
+    },
+    {
+      "offset": 444,
+      "op": "Add2"
+    },
+    {
+      "offset": 445,
+      "op": "Push",
+      "args": [
+        1,
+        {
+          "type": 8,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "offset": 455,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 456,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 19
+        }
+      ]
+    },
+    {
+      "offset": 461,
+      "op": "CallMethod"
+    },
+    {
+      "offset": 462,
+      "op": "Pop"
+    },
+    {
+      "offset": 463,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        },
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 470,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 471,
+      "op": "0x50"
+    },
+    {
+      "offset": 472,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 473,
+      "op": "Jump",
+      "args": -313
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "ConstantPool"
+    },
+    {
+      "offset": 20,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 25,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 26,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 31,
+      "op": "GetMember"
+    },
+    {
+      "offset": 32,
+      "op": "Push",
+      "args": [
+        1
+      ]
+    },
+    {
+      "offset": 40,
+      "op": "Less2"
+    },
+    {
+      "offset": 41,
+      "op": "Not"
+    },
+    {
+      "offset": 42,
+      "op": "Not"
+    },
+    {
+      "offset": 43,
+      "op": "If",
+      "args": 21
+    },
+    {
+      "offset": 48,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 53,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 54,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 59,
+      "op": "GetMember"
+    },
+    {
+      "offset": 60,
+      "op": "GotoFrame2"
+    },
+    {
+      "offset": 64,
+      "op": "Jump",
+      "args": 1
+    },
+    {
+      "offset": 69,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "ConstantPool"
+    },
+    {
+      "offset": 154,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        },
+        1
+      ]
+    },
+    {
+      "offset": 164,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 165,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 170,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 171,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 176,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 177,
+      "op": "Less2"
+    },
+    {
+      "offset": 178,
+      "op": "Not"
+    },
+    {
+      "offset": 179,
+      "op": "Not"
+    },
+    {
+      "offset": 180,
+      "op": "If",
+      "args": 293
+    },
+    {
+      "offset": 185,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 2
+        },
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 192,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 193,
+      "op": "Add2"
+    },
+    {
+      "offset": 194,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "offset": 199,
+      "op": "Add2"
+    },
+    {
+      "offset": 200,
+      "op": "Push",
+      "args": [
+        1,
+        {
+          "type": 8,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "offset": 210,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 211,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "offset": 216,
+      "op": "CallMethod"
+    },
+    {
+      "offset": 217,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "offset": 222,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 223,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 7
+        }
+      ]
+    },
+    {
+      "offset": 228,
+      "op": "GetMember"
+    },
+    {
+      "offset": 229,
+      "op": "Push",
+      "args": [
+        0
+      ]
+    },
+    {
+      "offset": 241,
+      "op": "Equals2"
+    },
+    {
+      "offset": 242,
+      "op": "And"
+    },
+    {
+      "offset": 243,
+      "op": "Not"
+    },
+    {
+      "offset": 244,
+      "op": "If",
+      "args": 214
+    },
+    {
+      "offset": 249,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "offset": 254,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 255,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 7
+        },
+        1
+      ]
+    },
+    {
+      "offset": 265,
+      "op": "SetMember"
+    },
+    {
+      "offset": 266,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "offset": 271,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 272,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 8
+        },
+        {
+          "type": 8,
+          "index": 2
+        },
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 281,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 282,
+      "op": "Add2"
+    },
+    {
+      "offset": 283,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 9
+        }
+      ]
+    },
+    {
+      "offset": 288,
+      "op": "Add2"
+    },
+    {
+      "offset": 289,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 290,
+      "op": "SetMember"
+    },
+    {
+      "offset": 291,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "offset": 296,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 297,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 10
+        },
+        {
+          "type": 8,
+          "index": 2
+        },
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 306,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 307,
+      "op": "Add2"
+    },
+    {
+      "offset": 308,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 11
+        }
+      ]
+    },
+    {
+      "offset": 313,
+      "op": "Add2"
+    },
+    {
+      "offset": 314,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 315,
+      "op": "SetMember"
+    },
+    {
+      "offset": 316,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "offset": 321,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 322,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 12
+        },
+        {
+          "type": 8,
+          "index": 2
+        },
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 331,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 332,
+      "op": "Add2"
+    },
+    {
+      "offset": 333,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 13
+        }
+      ]
+    },
+    {
+      "offset": 338,
+      "op": "Add2"
+    },
+    {
+      "offset": 339,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 340,
+      "op": "SetMember"
+    },
+    {
+      "offset": 341,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "offset": 346,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 347,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 10
+        }
+      ]
+    },
+    {
+      "offset": 352,
+      "op": "GetMember"
+    },
+    {
+      "offset": 353,
+      "op": "Push",
+      "args": [
+        1,
+        {
+          "type": 8,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "offset": 363,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 364,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 14
+        }
+      ]
+    },
+    {
+      "offset": 369,
+      "op": "GetMember"
+    },
+    {
+      "offset": 370,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 15
+        }
+      ]
+    },
+    {
+      "offset": 375,
+      "op": "CallMethod"
+    },
+    {
+      "offset": 376,
+      "op": "Pop"
+    },
+    {
+      "offset": 377,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 16
+        },
+        1,
+        {
+          "type": 8,
+          "index": 17
+        }
+      ]
+    },
+    {
+      "offset": 389,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 390,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 18
+        }
+      ]
+    },
+    {
+      "offset": 395,
+      "op": "GetMember"
+    },
+    {
+      "offset": 396,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 15
+        }
+      ]
+    },
+    {
+      "offset": 401,
+      "op": "CallMethod"
+    },
+    {
+      "offset": 402,
+      "op": "Pop"
+    },
+    {
+      "offset": 403,
+      "op": "Push",
+      "args": [
+        2,
+        1,
+        {
+          "type": 8,
+          "index": 2
+        },
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 420,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 421,
+      "op": "Add2"
+    },
+    {
+      "offset": 422,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 423,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 15
+        }
+      ]
+    },
+    {
+      "offset": 428,
+      "op": "CallMethod"
+    },
+    {
+      "offset": 429,
+      "op": "Pop"
+    },
+    {
+      "offset": 430,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 16
+        },
+        {
+          "type": 8,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "offset": 437,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 438,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 16
+        }
+      ]
+    },
+    {
+      "offset": 443,
+      "op": "GetMember"
+    },
+    {
+      "offset": 444,
+      "op": "Add2"
+    },
+    {
+      "offset": 445,
+      "op": "Push",
+      "args": [
+        1,
+        {
+          "type": 8,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "offset": 455,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 456,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 19
+        }
+      ]
+    },
+    {
+      "offset": 461,
+      "op": "CallMethod"
+    },
+    {
+      "offset": 462,
+      "op": "Pop"
+    },
+    {
+      "offset": 463,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        },
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 470,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 471,
+      "op": "0x50"
+    },
+    {
+      "offset": 472,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 473,
+      "op": "Jump",
+      "args": -313
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Stop"
+    },
+    {
+      "offset": 1,
+      "op": "Push",
+      "args": [
+        "weight",
+        -1
+      ]
+    },
+    {
+      "offset": 17,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 18,
+      "op": "Push",
+      "args": [
+        "object",
+        0
+      ]
+    },
+    {
+      "offset": 38,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 39,
+      "op": "Push",
+      "args": [
+        "price",
+        0
+      ]
+    },
+    {
+      "offset": 58,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 59,
+      "op": "Push",
+      "args": [
+        "busy",
+        0
+      ]
+    },
+    {
+      "offset": 77,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 78,
+      "op": "Push",
+      "args": [
+        "stickBonus",
+        0
+      ]
+    },
+    {
+      "offset": 102,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "up",
+        "",
+        4
+      ]
+    },
+    {
+      "offset": 14,
+      "op": "GetProperty"
+    },
+    {
+      "offset": 15,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "ConstantPool"
+    },
+    {
+      "offset": 154,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        },
+        1
+      ]
+    },
+    {
+      "offset": 164,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 165,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 170,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 171,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 176,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 177,
+      "op": "Less2"
+    },
+    {
+      "offset": 178,
+      "op": "Not"
+    },
+    {
+      "offset": 179,
+      "op": "Not"
+    },
+    {
+      "offset": 180,
+      "op": "If",
+      "args": 293
+    },
+    {
+      "offset": 185,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 2
+        },
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 192,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 193,
+      "op": "Add2"
+    },
+    {
+      "offset": 194,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "offset": 199,
+      "op": "Add2"
+    },
+    {
+      "offset": 200,
+      "op": "Push",
+      "args": [
+        1,
+        {
+          "type": 8,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "offset": 210,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 211,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "offset": 216,
+      "op": "CallMethod"
+    },
+    {
+      "offset": 217,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "offset": 222,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 223,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 7
+        }
+      ]
+    },
+    {
+      "offset": 228,
+      "op": "GetMember"
+    },
+    {
+      "offset": 229,
+      "op": "Push",
+      "args": [
+        0
+      ]
+    },
+    {
+      "offset": 241,
+      "op": "Equals2"
+    },
+    {
+      "offset": 242,
+      "op": "And"
+    },
+    {
+      "offset": 243,
+      "op": "Not"
+    },
+    {
+      "offset": 244,
+      "op": "If",
+      "args": 214
+    },
+    {
+      "offset": 249,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "offset": 254,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 255,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 7
+        },
+        1
+      ]
+    },
+    {
+      "offset": 265,
+      "op": "SetMember"
+    },
+    {
+      "offset": 266,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "offset": 271,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 272,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 8
+        },
+        {
+          "type": 8,
+          "index": 2
+        },
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 281,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 282,
+      "op": "Add2"
+    },
+    {
+      "offset": 283,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 9
+        }
+      ]
+    },
+    {
+      "offset": 288,
+      "op": "Add2"
+    },
+    {
+      "offset": 289,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 290,
+      "op": "SetMember"
+    },
+    {
+      "offset": 291,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "offset": 296,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 297,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 10
+        },
+        {
+          "type": 8,
+          "index": 2
+        },
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 306,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 307,
+      "op": "Add2"
+    },
+    {
+      "offset": 308,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 11
+        }
+      ]
+    },
+    {
+      "offset": 313,
+      "op": "Add2"
+    },
+    {
+      "offset": 314,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 315,
+      "op": "SetMember"
+    },
+    {
+      "offset": 316,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "offset": 321,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 322,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 12
+        },
+        {
+          "type": 8,
+          "index": 2
+        },
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 331,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 332,
+      "op": "Add2"
+    },
+    {
+      "offset": 333,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 13
+        }
+      ]
+    },
+    {
+      "offset": 338,
+      "op": "Add2"
+    },
+    {
+      "offset": 339,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 340,
+      "op": "SetMember"
+    },
+    {
+      "offset": 341,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "offset": 346,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 347,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 10
+        }
+      ]
+    },
+    {
+      "offset": 352,
+      "op": "GetMember"
+    },
+    {
+      "offset": 353,
+      "op": "Push",
+      "args": [
+        1,
+        {
+          "type": 8,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "offset": 363,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 364,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 14
+        }
+      ]
+    },
+    {
+      "offset": 369,
+      "op": "GetMember"
+    },
+    {
+      "offset": 370,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 15
+        }
+      ]
+    },
+    {
+      "offset": 375,
+      "op": "CallMethod"
+    },
+    {
+      "offset": 376,
+      "op": "Pop"
+    },
+    {
+      "offset": 377,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 16
+        },
+        1,
+        {
+          "type": 8,
+          "index": 17
+        }
+      ]
+    },
+    {
+      "offset": 389,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 390,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 18
+        }
+      ]
+    },
+    {
+      "offset": 395,
+      "op": "GetMember"
+    },
+    {
+      "offset": 396,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 15
+        }
+      ]
+    },
+    {
+      "offset": 401,
+      "op": "CallMethod"
+    },
+    {
+      "offset": 402,
+      "op": "Pop"
+    },
+    {
+      "offset": 403,
+      "op": "Push",
+      "args": [
+        2,
+        1,
+        {
+          "type": 8,
+          "index": 2
+        },
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 420,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 421,
+      "op": "Add2"
+    },
+    {
+      "offset": 422,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 423,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 15
+        }
+      ]
+    },
+    {
+      "offset": 428,
+      "op": "CallMethod"
+    },
+    {
+      "offset": 429,
+      "op": "Pop"
+    },
+    {
+      "offset": 430,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 16
+        },
+        {
+          "type": 8,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "offset": 437,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 438,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 16
+        }
+      ]
+    },
+    {
+      "offset": 443,
+      "op": "GetMember"
+    },
+    {
+      "offset": 444,
+      "op": "Add2"
+    },
+    {
+      "offset": 445,
+      "op": "Push",
+      "args": [
+        1,
+        {
+          "type": 8,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "offset": 455,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 456,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 19
+        }
+      ]
+    },
+    {
+      "offset": 461,
+      "op": "CallMethod"
+    },
+    {
+      "offset": 462,
+      "op": "Pop"
+    },
+    {
+      "offset": 463,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        },
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 470,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 471,
+      "op": "0x50"
+    },
+    {
+      "offset": 472,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 473,
+      "op": "Jump",
+      "args": -313
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "up",
+        "",
+        4
+      ]
+    },
+    {
+      "offset": 14,
+      "op": "GetProperty"
+    },
+    {
+      "offset": 15,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "up",
+        "",
+        4
+      ]
+    },
+    {
+      "offset": 14,
+      "op": "GetProperty"
+    },
+    {
+      "offset": 15,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "up",
+        "",
+        4
+      ]
+    },
+    {
+      "offset": 14,
+      "op": "GetProperty"
+    },
+    {
+      "offset": 15,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "up",
+        "",
+        4
+      ]
+    },
+    {
+      "offset": 14,
+      "op": "GetProperty"
+    },
+    {
+      "offset": 15,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "up",
+        "",
+        4
+      ]
+    },
+    {
+      "offset": 14,
+      "op": "GetProperty"
+    },
+    {
+      "offset": 15,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "up",
+        "",
+        4
+      ]
+    },
+    {
+      "offset": 14,
+      "op": "GetProperty"
+    },
+    {
+      "offset": 15,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "up",
+        "",
+        4
+      ]
+    },
+    {
+      "offset": 14,
+      "op": "GetProperty"
+    },
+    {
+      "offset": 15,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "up",
+        "",
+        4
+      ]
+    },
+    {
+      "offset": 14,
+      "op": "GetProperty"
+    },
+    {
+      "offset": 15,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "up",
+        "",
+        4
+      ]
+    },
+    {
+      "offset": 14,
+      "op": "GetProperty"
+    },
+    {
+      "offset": 15,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "up",
+        "",
+        4
+      ]
+    },
+    {
+      "offset": 14,
+      "op": "GetProperty"
+    },
+    {
+      "offset": 15,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "up",
+        "",
+        4
+      ]
+    },
+    {
+      "offset": 14,
+      "op": "GetProperty"
+    },
+    {
+      "offset": 15,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "up",
+        "",
+        4
+      ]
+    },
+    {
+      "offset": 14,
+      "op": "GetProperty"
+    },
+    {
+      "offset": 15,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "up",
+        "",
+        4
+      ]
+    },
+    {
+      "offset": 14,
+      "op": "GetProperty"
+    },
+    {
+      "offset": 15,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "up",
+        "",
+        4
+      ]
+    },
+    {
+      "offset": 14,
+      "op": "GetProperty"
+    },
+    {
+      "offset": 15,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "up",
+        "",
+        4
+      ]
+    },
+    {
+      "offset": 14,
+      "op": "GetProperty"
+    },
+    {
+      "offset": 15,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "up",
+        "",
+        4
+      ]
+    },
+    {
+      "offset": 14,
+      "op": "GetProperty"
+    },
+    {
+      "offset": 15,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "up",
+        "",
+        4
+      ]
+    },
+    {
+      "offset": 14,
+      "op": "GetProperty"
+    },
+    {
+      "offset": 15,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "up",
+        "",
+        4
+      ]
+    },
+    {
+      "offset": 14,
+      "op": "GetProperty"
+    },
+    {
+      "offset": 15,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "up",
+        "",
+        4
+      ]
+    },
+    {
+      "offset": 14,
+      "op": "GetProperty"
+    },
+    {
+      "offset": 15,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "up",
+        "",
+        4
+      ]
+    },
+    {
+      "offset": 14,
+      "op": "GetProperty"
+    },
+    {
+      "offset": 15,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "up",
+        "",
+        4
+      ]
+    },
+    {
+      "offset": 14,
+      "op": "GetProperty"
+    },
+    {
+      "offset": 15,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "up",
+        "",
+        4
+      ]
+    },
+    {
+      "offset": 14,
+      "op": "GetProperty"
+    },
+    {
+      "offset": 15,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "up",
+        "",
+        4
+      ]
+    },
+    {
+      "offset": 14,
+      "op": "GetProperty"
+    },
+    {
+      "offset": 15,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "up",
+        "",
+        4
+      ]
+    },
+    {
+      "offset": 14,
+      "op": "GetProperty"
+    },
+    {
+      "offset": 15,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "up",
+        "",
+        4
+      ]
+    },
+    {
+      "offset": 14,
+      "op": "GetProperty"
+    },
+    {
+      "offset": 15,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "up",
+        "",
+        4
+      ]
+    },
+    {
+      "offset": 14,
+      "op": "GetProperty"
+    },
+    {
+      "offset": 15,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "up",
+        "",
+        4
+      ]
+    },
+    {
+      "offset": 14,
+      "op": "GetProperty"
+    },
+    {
+      "offset": 15,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "up",
+        "",
+        4
+      ]
+    },
+    {
+      "offset": 14,
+      "op": "GetProperty"
+    },
+    {
+      "offset": 15,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "up",
+        "",
+        4
+      ]
+    },
+    {
+      "offset": 14,
+      "op": "GetProperty"
+    },
+    {
+      "offset": 15,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "up",
+        "",
+        4
+      ]
+    },
+    {
+      "offset": 14,
+      "op": "GetProperty"
+    },
+    {
+      "offset": 15,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "up",
+        "",
+        4
+      ]
+    },
+    {
+      "offset": 14,
+      "op": "GetProperty"
+    },
+    {
+      "offset": 15,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "up",
+        "",
+        4
+      ]
+    },
+    {
+      "offset": 14,
+      "op": "GetProperty"
+    },
+    {
+      "offset": 15,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "up",
+        "",
+        4
+      ]
+    },
+    {
+      "offset": 14,
+      "op": "GetProperty"
+    },
+    {
+      "offset": 15,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "up",
+        "",
+        4
+      ]
+    },
+    {
+      "offset": 14,
+      "op": "GetProperty"
+    },
+    {
+      "offset": 15,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "up",
+        "",
+        4
+      ]
+    },
+    {
+      "offset": 14,
+      "op": "GetProperty"
+    },
+    {
+      "offset": 15,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "up",
+        "",
+        4
+      ]
+    },
+    {
+      "offset": 14,
+      "op": "GetProperty"
+    },
+    {
+      "offset": 15,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "up",
+        "",
+        4
+      ]
+    },
+    {
+      "offset": 14,
+      "op": "GetProperty"
+    },
+    {
+      "offset": 15,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "up",
+        "",
+        4
+      ]
+    },
+    {
+      "offset": 14,
+      "op": "GetProperty"
+    },
+    {
+      "offset": 15,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "up",
+        "",
+        4
+      ]
+    },
+    {
+      "offset": 14,
+      "op": "GetProperty"
+    },
+    {
+      "offset": 15,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "up",
+        "",
+        4
+      ]
+    },
+    {
+      "offset": 14,
+      "op": "GetProperty"
+    },
+    {
+      "offset": 15,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "up",
+        1,
+        "_root"
+      ]
+    },
+    {
+      "offset": 19,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 20,
+      "op": "Push",
+      "args": [
+        "miner"
+      ]
+    },
+    {
+      "offset": 30,
+      "op": "GetMember"
+    },
+    {
+      "offset": 31,
+      "op": "Push",
+      "args": [
+        "gotoAndStop"
+      ]
+    },
+    {
+      "offset": 47,
+      "op": "CallMethod"
+    },
+    {
+      "offset": 48,
+      "op": "Pop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "ConstantPool"
+    },
+    {
+      "offset": 36,
+      "op": "Push",
+      "args": [
+        1,
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 46,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 47,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 52,
+      "op": "GetMember"
+    },
+    {
+      "offset": 53,
+      "op": "Less2"
+    },
+    {
+      "offset": 54,
+      "op": "Not"
+    },
+    {
+      "offset": 55,
+      "op": "If",
+      "args": 27
+    },
+    {
+      "offset": 60,
+      "op": "Push",
+      "args": [
+        0,
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 74,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 75,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "offset": 80,
+      "op": "CallMethod"
+    },
+    {
+      "offset": 81,
+      "op": "Pop"
+    },
+    {
+      "offset": 82,
+      "op": "Jump",
+      "args": 65
+    },
+    {
+      "offset": 87,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 92,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 93,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 98,
+      "op": "GetMember"
+    },
+    {
+      "offset": 99,
+      "op": "Push",
+      "args": [
+        -1
+      ]
+    },
+    {
+      "offset": 107,
+      "op": "Equals2"
+    },
+    {
+      "offset": 108,
+      "op": "Not"
+    },
+    {
+      "offset": 109,
+      "op": "If",
+      "args": 38
+    },
+    {
+      "offset": 114,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 119,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 120,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 3
+        },
+        1
+      ]
+    },
+    {
+      "offset": 130,
+      "op": "SetMember"
+    },
+    {
+      "offset": 131,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 136,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 137,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        },
+        0
+      ]
+    },
+    {
+      "offset": 151,
+      "op": "SetMember"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "ConstantPool"
+    },
+    {
+      "offset": 96,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 101,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 102,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 107,
+      "op": "GetMember"
+    },
+    {
+      "offset": 108,
+      "op": "Push",
+      "args": [
+        1
+      ]
+    },
+    {
+      "offset": 116,
+      "op": "Equals2"
+    },
+    {
+      "offset": 117,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "offset": 122,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 123,
+      "op": "Push",
+      "args": [
+        1
+      ]
+    },
+    {
+      "offset": 131,
+      "op": "Equals2"
+    },
+    {
+      "offset": 132,
+      "op": "Or"
+    },
+    {
+      "offset": 133,
+      "op": "Not"
+    },
+    {
+      "offset": 134,
+      "op": "If",
+      "args": 44
+    },
+    {
+      "offset": 139,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 144,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 145,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "offset": 150,
+      "op": "GetMember"
+    },
+    {
+      "offset": 151,
+      "op": "Push",
+      "args": [
+        15
+      ]
+    },
+    {
+      "offset": 159,
+      "op": "Add2"
+    },
+    {
+      "offset": 160,
+      "op": "Push",
+      "args": [
+        1,
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 170,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 171,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "offset": 176,
+      "op": "CallMethod"
+    },
+    {
+      "offset": 177,
+      "op": "Pop"
+    },
+    {
+      "offset": 178,
+      "op": "Jump",
+      "args": 50
+    },
+    {
+      "offset": 183,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 188,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 189,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "offset": 194,
+      "op": "GetMember"
+    },
+    {
+      "offset": 195,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "offset": 200,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 201,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 206,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 207,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 6
+        }
+      ]
+    },
+    {
+      "offset": 212,
+      "op": "GetMember"
+    },
+    {
+      "offset": 213,
+      "op": "Subtract"
+    },
+    {
+      "offset": 214,
+      "op": "Add2"
+    },
+    {
+      "offset": 215,
+      "op": "Push",
+      "args": [
+        1,
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 225,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 226,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 7
+        }
+      ]
+    },
+    {
+      "offset": 231,
+      "op": "CallMethod"
+    },
+    {
+      "offset": 232,
+      "op": "Pop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Play"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Play"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Play"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Play"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Play"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Play"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Play"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "ConstantPool"
+    },
+    {
+      "offset": 42,
+      "op": "Stop"
+    },
+    {
+      "offset": 43,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 48,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 49,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 54,
+      "op": "GetMember"
+    },
+    {
+      "offset": 55,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 2
+        },
+        {
+          "type": 8,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "offset": 62,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 63,
+      "op": "SetMember"
+    },
+    {
+      "offset": 64,
+      "op": "Push",
+      "args": [
+        2,
+        1,
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 79,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 80,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 85,
+      "op": "GetMember"
+    },
+    {
+      "offset": 86,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "offset": 91,
+      "op": "CallMethod"
+    },
+    {
+      "offset": 92,
+      "op": "Pop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "ConstantPool"
+    },
+    {
+      "offset": 42,
+      "op": "Stop"
+    },
+    {
+      "offset": 43,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 48,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 49,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 54,
+      "op": "GetMember"
+    },
+    {
+      "offset": 55,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 2
+        },
+        {
+          "type": 8,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "offset": 62,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 63,
+      "op": "SetMember"
+    },
+    {
+      "offset": 64,
+      "op": "Push",
+      "args": [
+        2,
+        1,
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 79,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 80,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 85,
+      "op": "GetMember"
+    },
+    {
+      "offset": 86,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "offset": 91,
+      "op": "CallMethod"
+    },
+    {
+      "offset": 92,
+      "op": "Pop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "ConstantPool"
+    },
+    {
+      "offset": 42,
+      "op": "Stop"
+    },
+    {
+      "offset": 43,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 48,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 49,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 54,
+      "op": "GetMember"
+    },
+    {
+      "offset": 55,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 2
+        },
+        {
+          "type": 8,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "offset": 62,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 63,
+      "op": "SetMember"
+    },
+    {
+      "offset": 64,
+      "op": "Push",
+      "args": [
+        2,
+        1,
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 79,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 80,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 85,
+      "op": "GetMember"
+    },
+    {
+      "offset": 86,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "offset": 91,
+      "op": "CallMethod"
+    },
+    {
+      "offset": 92,
+      "op": "Pop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "ConstantPool"
+    },
+    {
+      "offset": 42,
+      "op": "Stop"
+    },
+    {
+      "offset": 43,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 48,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 49,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 54,
+      "op": "GetMember"
+    },
+    {
+      "offset": 55,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 2
+        },
+        {
+          "type": 8,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "offset": 62,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 63,
+      "op": "SetMember"
+    },
+    {
+      "offset": 64,
+      "op": "Push",
+      "args": [
+        2,
+        1,
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 79,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 80,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 85,
+      "op": "GetMember"
+    },
+    {
+      "offset": 86,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "offset": 91,
+      "op": "CallMethod"
+    },
+    {
+      "offset": 92,
+      "op": "Pop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "ConstantPool"
+    },
+    {
+      "offset": 42,
+      "op": "Stop"
+    },
+    {
+      "offset": 43,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 48,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 49,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 54,
+      "op": "GetMember"
+    },
+    {
+      "offset": 55,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 2
+        },
+        {
+          "type": 8,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "offset": 62,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 63,
+      "op": "SetMember"
+    },
+    {
+      "offset": 64,
+      "op": "Push",
+      "args": [
+        2,
+        1,
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 79,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 80,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 85,
+      "op": "GetMember"
+    },
+    {
+      "offset": 86,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "offset": 91,
+      "op": "CallMethod"
+    },
+    {
+      "offset": 92,
+      "op": "Pop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "ConstantPool"
+    },
+    {
+      "offset": 42,
+      "op": "Stop"
+    },
+    {
+      "offset": 43,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 48,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 49,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 54,
+      "op": "GetMember"
+    },
+    {
+      "offset": 55,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 2
+        },
+        {
+          "type": 8,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "offset": 62,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 63,
+      "op": "SetMember"
+    },
+    {
+      "offset": 64,
+      "op": "Push",
+      "args": [
+        2,
+        1,
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 79,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 80,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 85,
+      "op": "GetMember"
+    },
+    {
+      "offset": 86,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "offset": 91,
+      "op": "CallMethod"
+    },
+    {
+      "offset": 92,
+      "op": "Pop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "ConstantPool"
+    },
+    {
+      "offset": 42,
+      "op": "Stop"
+    },
+    {
+      "offset": 43,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 48,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 49,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 54,
+      "op": "GetMember"
+    },
+    {
+      "offset": 55,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 2
+        },
+        {
+          "type": 8,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "offset": 62,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 63,
+      "op": "SetMember"
+    },
+    {
+      "offset": 64,
+      "op": "Push",
+      "args": [
+        2,
+        1,
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 79,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 80,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 85,
+      "op": "GetMember"
+    },
+    {
+      "offset": 86,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "offset": 91,
+      "op": "CallMethod"
+    },
+    {
+      "offset": 92,
+      "op": "Pop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "ConstantPool"
+    },
+    {
+      "offset": 42,
+      "op": "Stop"
+    },
+    {
+      "offset": 43,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 48,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 49,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 54,
+      "op": "GetMember"
+    },
+    {
+      "offset": 55,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 2
+        },
+        {
+          "type": 8,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "offset": 62,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 63,
+      "op": "SetMember"
+    },
+    {
+      "offset": 64,
+      "op": "Push",
+      "args": [
+        2,
+        1,
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 79,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 80,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 85,
+      "op": "GetMember"
+    },
+    {
+      "offset": 86,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "offset": 91,
+      "op": "CallMethod"
+    },
+    {
+      "offset": 92,
+      "op": "Pop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "ConstantPool"
+    },
+    {
+      "offset": 42,
+      "op": "Stop"
+    },
+    {
+      "offset": 43,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 48,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 49,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 54,
+      "op": "GetMember"
+    },
+    {
+      "offset": 55,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 2
+        },
+        {
+          "type": 8,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "offset": 62,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 63,
+      "op": "SetMember"
+    },
+    {
+      "offset": 64,
+      "op": "Push",
+      "args": [
+        2,
+        1,
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 79,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 80,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 85,
+      "op": "GetMember"
+    },
+    {
+      "offset": 86,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "offset": 91,
+      "op": "CallMethod"
+    },
+    {
+      "offset": 92,
+      "op": "Pop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "ConstantPool"
+    },
+    {
+      "offset": 42,
+      "op": "Stop"
+    },
+    {
+      "offset": 43,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 48,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 49,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 54,
+      "op": "GetMember"
+    },
+    {
+      "offset": 55,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 2
+        },
+        {
+          "type": 8,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "offset": 62,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 63,
+      "op": "SetMember"
+    },
+    {
+      "offset": 64,
+      "op": "Push",
+      "args": [
+        2,
+        1,
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 79,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 80,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 85,
+      "op": "GetMember"
+    },
+    {
+      "offset": 86,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "offset": 91,
+      "op": "CallMethod"
+    },
+    {
+      "offset": 92,
+      "op": "Pop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "ConstantPool"
+    },
+    {
+      "offset": 42,
+      "op": "Stop"
+    },
+    {
+      "offset": 43,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 48,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 49,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 54,
+      "op": "GetMember"
+    },
+    {
+      "offset": 55,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 2
+        },
+        {
+          "type": 8,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "offset": 62,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 63,
+      "op": "SetMember"
+    },
+    {
+      "offset": 64,
+      "op": "Push",
+      "args": [
+        2,
+        1,
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 79,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 80,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 85,
+      "op": "GetMember"
+    },
+    {
+      "offset": 86,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "offset": 91,
+      "op": "CallMethod"
+    },
+    {
+      "offset": 92,
+      "op": "Pop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "ConstantPool"
+    },
+    {
+      "offset": 42,
+      "op": "Stop"
+    },
+    {
+      "offset": 43,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 48,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 49,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 54,
+      "op": "GetMember"
+    },
+    {
+      "offset": 55,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 2
+        },
+        {
+          "type": 8,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "offset": 62,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 63,
+      "op": "SetMember"
+    },
+    {
+      "offset": 64,
+      "op": "Push",
+      "args": [
+        2,
+        1,
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 79,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 80,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 85,
+      "op": "GetMember"
+    },
+    {
+      "offset": 86,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "offset": 91,
+      "op": "CallMethod"
+    },
+    {
+      "offset": 92,
+      "op": "Pop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "ConstantPool"
+    },
+    {
+      "offset": 42,
+      "op": "Stop"
+    },
+    {
+      "offset": 43,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 48,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 49,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 54,
+      "op": "GetMember"
+    },
+    {
+      "offset": 55,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 2
+        },
+        {
+          "type": 8,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "offset": 62,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 63,
+      "op": "SetMember"
+    },
+    {
+      "offset": 64,
+      "op": "Push",
+      "args": [
+        2,
+        1,
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 79,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 80,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 85,
+      "op": "GetMember"
+    },
+    {
+      "offset": 86,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "offset": 91,
+      "op": "CallMethod"
+    },
+    {
+      "offset": 92,
+      "op": "Pop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "ConstantPool"
+    },
+    {
+      "offset": 42,
+      "op": "Stop"
+    },
+    {
+      "offset": 43,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 48,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 49,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 54,
+      "op": "GetMember"
+    },
+    {
+      "offset": 55,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 2
+        },
+        {
+          "type": 8,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "offset": 62,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 63,
+      "op": "SetMember"
+    },
+    {
+      "offset": 64,
+      "op": "Push",
+      "args": [
+        2,
+        1,
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 79,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 80,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 85,
+      "op": "GetMember"
+    },
+    {
+      "offset": 86,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "offset": 91,
+      "op": "CallMethod"
+    },
+    {
+      "offset": 92,
+      "op": "Pop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "ConstantPool"
+    },
+    {
+      "offset": 42,
+      "op": "Stop"
+    },
+    {
+      "offset": 43,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 48,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 49,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 54,
+      "op": "GetMember"
+    },
+    {
+      "offset": 55,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 2
+        },
+        {
+          "type": 8,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "offset": 62,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 63,
+      "op": "SetMember"
+    },
+    {
+      "offset": 64,
+      "op": "Push",
+      "args": [
+        2,
+        1,
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 79,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 80,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 85,
+      "op": "GetMember"
+    },
+    {
+      "offset": 86,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "offset": 91,
+      "op": "CallMethod"
+    },
+    {
+      "offset": 92,
+      "op": "Pop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "ConstantPool"
+    },
+    {
+      "offset": 42,
+      "op": "Stop"
+    },
+    {
+      "offset": 43,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 48,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 49,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 54,
+      "op": "GetMember"
+    },
+    {
+      "offset": 55,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 2
+        },
+        {
+          "type": 8,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "offset": 62,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 63,
+      "op": "SetMember"
+    },
+    {
+      "offset": 64,
+      "op": "Push",
+      "args": [
+        2,
+        1,
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 79,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 80,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 85,
+      "op": "GetMember"
+    },
+    {
+      "offset": 86,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "offset": 91,
+      "op": "CallMethod"
+    },
+    {
+      "offset": 92,
+      "op": "Pop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "ConstantPool"
+    },
+    {
+      "offset": 42,
+      "op": "Stop"
+    },
+    {
+      "offset": 43,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 48,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 49,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 54,
+      "op": "GetMember"
+    },
+    {
+      "offset": 55,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 2
+        },
+        {
+          "type": 8,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "offset": 62,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 63,
+      "op": "SetMember"
+    },
+    {
+      "offset": 64,
+      "op": "Push",
+      "args": [
+        2,
+        1,
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 79,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 80,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 85,
+      "op": "GetMember"
+    },
+    {
+      "offset": 86,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "offset": 91,
+      "op": "CallMethod"
+    },
+    {
+      "offset": 92,
+      "op": "Pop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "ConstantPool"
+    },
+    {
+      "offset": 42,
+      "op": "Stop"
+    },
+    {
+      "offset": 43,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 48,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 49,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 54,
+      "op": "GetMember"
+    },
+    {
+      "offset": 55,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 2
+        },
+        {
+          "type": 8,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "offset": 62,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 63,
+      "op": "SetMember"
+    },
+    {
+      "offset": 64,
+      "op": "Push",
+      "args": [
+        2,
+        1,
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 79,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 80,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 85,
+      "op": "GetMember"
+    },
+    {
+      "offset": 86,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "offset": 91,
+      "op": "CallMethod"
+    },
+    {
+      "offset": 92,
+      "op": "Pop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "ConstantPool"
+    },
+    {
+      "offset": 42,
+      "op": "Stop"
+    },
+    {
+      "offset": 43,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 48,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 49,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 54,
+      "op": "GetMember"
+    },
+    {
+      "offset": 55,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 2
+        },
+        {
+          "type": 8,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "offset": 62,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 63,
+      "op": "SetMember"
+    },
+    {
+      "offset": 64,
+      "op": "Push",
+      "args": [
+        2,
+        1,
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 79,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 80,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 85,
+      "op": "GetMember"
+    },
+    {
+      "offset": 86,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "offset": 91,
+      "op": "CallMethod"
+    },
+    {
+      "offset": 92,
+      "op": "Pop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "ConstantPool"
+    },
+    {
+      "offset": 42,
+      "op": "Stop"
+    },
+    {
+      "offset": 43,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 48,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 49,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 54,
+      "op": "GetMember"
+    },
+    {
+      "offset": 55,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 2
+        },
+        {
+          "type": 8,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "offset": 62,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 63,
+      "op": "SetMember"
+    },
+    {
+      "offset": 64,
+      "op": "Push",
+      "args": [
+        2,
+        1,
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 79,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 80,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 85,
+      "op": "GetMember"
+    },
+    {
+      "offset": 86,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "offset": 91,
+      "op": "CallMethod"
+    },
+    {
+      "offset": 92,
+      "op": "Pop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "ConstantPool"
+    },
+    {
+      "offset": 42,
+      "op": "Stop"
+    },
+    {
+      "offset": 43,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 48,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 49,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 54,
+      "op": "GetMember"
+    },
+    {
+      "offset": 55,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 2
+        },
+        {
+          "type": 8,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "offset": 62,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 63,
+      "op": "SetMember"
+    },
+    {
+      "offset": 64,
+      "op": "Push",
+      "args": [
+        2,
+        1,
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 79,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 80,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 85,
+      "op": "GetMember"
+    },
+    {
+      "offset": 86,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "offset": 91,
+      "op": "CallMethod"
+    },
+    {
+      "offset": 92,
+      "op": "Pop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "ConstantPool"
+    },
+    {
+      "offset": 42,
+      "op": "Stop"
+    },
+    {
+      "offset": 43,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 48,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 49,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 54,
+      "op": "GetMember"
+    },
+    {
+      "offset": 55,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 2
+        },
+        {
+          "type": 8,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "offset": 62,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 63,
+      "op": "SetMember"
+    },
+    {
+      "offset": 64,
+      "op": "Push",
+      "args": [
+        2,
+        1,
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 79,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 80,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 85,
+      "op": "GetMember"
+    },
+    {
+      "offset": 86,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "offset": 91,
+      "op": "CallMethod"
+    },
+    {
+      "offset": 92,
+      "op": "Pop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "ConstantPool"
+    },
+    {
+      "offset": 42,
+      "op": "Stop"
+    },
+    {
+      "offset": 43,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 48,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 49,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 54,
+      "op": "GetMember"
+    },
+    {
+      "offset": 55,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 2
+        },
+        {
+          "type": 8,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "offset": 62,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 63,
+      "op": "SetMember"
+    },
+    {
+      "offset": 64,
+      "op": "Push",
+      "args": [
+        2,
+        1,
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 79,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 80,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 85,
+      "op": "GetMember"
+    },
+    {
+      "offset": 86,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "offset": 91,
+      "op": "CallMethod"
+    },
+    {
+      "offset": 92,
+      "op": "Pop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "ConstantPool"
+    },
+    {
+      "offset": 42,
+      "op": "Stop"
+    },
+    {
+      "offset": 43,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 48,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 49,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 54,
+      "op": "GetMember"
+    },
+    {
+      "offset": 55,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 2
+        },
+        {
+          "type": 8,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "offset": 62,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 63,
+      "op": "SetMember"
+    },
+    {
+      "offset": 64,
+      "op": "Push",
+      "args": [
+        2,
+        1,
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 79,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 80,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 85,
+      "op": "GetMember"
+    },
+    {
+      "offset": 86,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "offset": 91,
+      "op": "CallMethod"
+    },
+    {
+      "offset": 92,
+      "op": "Pop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "",
+        4
+      ]
+    },
+    {
+      "offset": 10,
+      "op": "GetProperty"
+    },
+    {
+      "offset": 11,
+      "op": "Push",
+      "args": [
+        82
+      ]
+    },
+    {
+      "offset": 19,
+      "op": "RandomNumber"
+    },
+    {
+      "offset": 20,
+      "op": "Add2"
+    },
+    {
+      "offset": 21,
+      "op": "Push",
+      "args": [
+        1
+      ]
+    },
+    {
+      "offset": 29,
+      "op": "Add2"
+    },
+    {
+      "offset": 30,
+      "op": "GotoFrame2"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "GotoFrame",
+      "args": 2
+    },
+    {
+      "offset": 5,
+      "op": "Play"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "/:stick"
+      ]
+    },
+    {
+      "offset": 12,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 13,
+      "op": "Push",
+      "args": [
+        1
+      ]
+    },
+    {
+      "offset": 21,
+      "op": "Add2"
+    },
+    {
+      "offset": 22,
+      "op": "GotoFrame2"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Stop"
+    },
+    {
+      "offset": 1,
+      "op": "Push",
+      "args": [
+        "bscore",
+        0
+      ]
+    },
+    {
+      "offset": 21,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 22,
+      "op": "Push",
+      "args": [
+        "/:busy",
+        0
+      ]
+    },
+    {
+      "offset": 42,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        1,
+        1,
+        "_root"
+      ]
+    },
+    {
+      "offset": 20,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 21,
+      "op": "Push",
+      "args": [
+        "miner"
+      ]
+    },
+    {
+      "offset": 31,
+      "op": "GetMember"
+    },
+    {
+      "offset": 32,
+      "op": "Push",
+      "args": [
+        "gotoAndStop"
+      ]
+    },
+    {
+      "offset": 48,
+      "op": "CallMethod"
+    },
+    {
+      "offset": 49,
+      "op": "Pop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "ConstantPool"
+    },
+    {
+      "offset": 47,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 52,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 53,
+      "op": "Push",
+      "args": [
+        0
+      ]
+    },
+    {
+      "offset": 65,
+      "op": "Equals2"
+    },
+    {
+      "offset": 66,
+      "op": "Not"
+    },
+    {
+      "offset": 67,
+      "op": "If",
+      "args": 39
+    },
+    {
+      "offset": 72,
+      "op": "GotoFrame",
+      "args": 0
+    },
+    {
+      "offset": 77,
+      "op": "Push",
+      "args": [
+        1,
+        1,
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 92,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 93,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "offset": 98,
+      "op": "GetMember"
+    },
+    {
+      "offset": 99,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "offset": 104,
+      "op": "CallMethod"
+    },
+    {
+      "offset": 105,
+      "op": "Pop"
+    },
+    {
+      "offset": 106,
+      "op": "Jump",
+      "args": 53
+    },
+    {
+      "offset": 111,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 116,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 117,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "offset": 122,
+      "op": "0x13"
+    },
+    {
+      "offset": 123,
+      "op": "Not"
+    },
+    {
+      "offset": 124,
+      "op": "If",
+      "args": 11
+    },
+    {
+      "offset": 129,
+      "op": "GotoFrame",
+      "args": 35
+    },
+    {
+      "offset": 134,
+      "op": "Play"
+    },
+    {
+      "offset": 135,
+      "op": "Jump",
+      "args": 24
+    },
+    {
+      "offset": 140,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 145,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 146,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 5
+        }
+      ]
+    },
+    {
+      "offset": 151,
+      "op": "0x13"
+    },
+    {
+      "offset": 152,
+      "op": "Not"
+    },
+    {
+      "offset": 153,
+      "op": "If",
+      "args": 6
+    },
+    {
+      "offset": 158,
+      "op": "GotoFrame",
+      "args": 60
+    },
+    {
+      "offset": 163,
+      "op": "Play"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "bscoreDis",
+        "$",
+        "bscore"
+      ]
+    },
+    {
+      "offset": 25,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 26,
+      "op": "Add2"
+    },
+    {
+      "offset": 27,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 28,
+      "op": "Push",
+      "args": [
+        "/:busy",
+        1
+      ]
+    },
+    {
+      "offset": 44,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "ConstantPool"
+    },
+    {
+      "offset": 40,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        },
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 47,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 48,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 53,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 54,
+      "op": "Add2"
+    },
+    {
+      "offset": 55,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 56,
+      "op": "Push",
+      "args": [
+        1,
+        1,
+        {
+          "type": 8,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "offset": 71,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 72,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "offset": 77,
+      "op": "GetMember"
+    },
+    {
+      "offset": 78,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "offset": 83,
+      "op": "CallMethod"
+    },
+    {
+      "offset": 84,
+      "op": "Pop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "GotoFrame",
+      "args": 0
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "/:strength",
+        1
+      ]
+    },
+    {
+      "offset": 20,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 21,
+      "op": "Push",
+      "args": [
+        "strength",
+        1,
+        "_root"
+      ]
+    },
+    {
+      "offset": 46,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 47,
+      "op": "Push",
+      "args": [
+        "miner"
+      ]
+    },
+    {
+      "offset": 57,
+      "op": "GetMember"
+    },
+    {
+      "offset": 58,
+      "op": "Push",
+      "args": [
+        "gotoAndStop"
+      ]
+    },
+    {
+      "offset": 74,
+      "op": "CallMethod"
+    },
+    {
+      "offset": 75,
+      "op": "Pop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "ConstantPool"
+    },
+    {
+      "offset": 43,
+      "op": "Push",
+      "args": [
+        1,
+        1,
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 58,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 59,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 64,
+      "op": "GetMember"
+    },
+    {
+      "offset": 65,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "offset": 70,
+      "op": "CallMethod"
+    },
+    {
+      "offset": 71,
+      "op": "Pop"
+    },
+    {
+      "offset": 72,
+      "op": "Push",
+      "args": [
+        1,
+        1,
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 87,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 88,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "offset": 93,
+      "op": "GetMember"
+    },
+    {
+      "offset": 94,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 4
+        }
+      ]
+    },
+    {
+      "offset": 99,
+      "op": "CallMethod"
+    },
+    {
+      "offset": 100,
+      "op": "Pop"
+    },
+    {
+      "offset": 101,
+      "op": "GotoFrame",
+      "args": 0
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "ConstantPool"
+    },
+    {
+      "offset": 36,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        },
+        {
+          "type": 8,
+          "index": 0
+        }
+      ]
+    },
+    {
+      "offset": 43,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 44,
+      "op": "Push",
+      "args": [
+        1
+      ]
+    },
+    {
+      "offset": 52,
+      "op": "Add2"
+    },
+    {
+      "offset": 53,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 54,
+      "op": "Push",
+      "args": [
+        0,
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 68,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 69,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 2
+        }
+      ]
+    },
+    {
+      "offset": 74,
+      "op": "GetMember"
+    },
+    {
+      "offset": 75,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 3
+        }
+      ]
+    },
+    {
+      "offset": 80,
+      "op": "CallMethod"
+    },
+    {
+      "offset": 81,
+      "op": "Pop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        1,
+        1,
+        "_root"
+      ]
+    },
+    {
+      "offset": 20,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 21,
+      "op": "Push",
+      "args": [
+        "C"
+      ]
+    },
+    {
+      "offset": 27,
+      "op": "GetMember"
+    },
+    {
+      "offset": 28,
+      "op": "Push",
+      "args": [
+        "gotoAndPlay"
+      ]
+    },
+    {
+      "offset": 44,
+      "op": "CallMethod"
+    },
+    {
+      "offset": 45,
+      "op": "Pop"
+    },
+    {
+      "offset": 46,
+      "op": "GotoFrame",
+      "args": 0
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "things",
+        15
+      ]
+    },
+    {
+      "offset": 16,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 17,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "things",
+        15
+      ]
+    },
+    {
+      "offset": 16,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 17,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "things",
+        20
+      ]
+    },
+    {
+      "offset": 16,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 17,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "object",
+        5
+      ]
+    },
+    {
+      "offset": 16,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 17,
+      "op": "Push",
+      "args": [
+        "price",
+        500
+      ]
+    },
+    {
+      "offset": 32,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 33,
+      "op": "Push",
+      "args": [
+        "weight",
+        9
+      ]
+    },
+    {
+      "offset": 49,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "object",
+        2
+      ]
+    },
+    {
+      "offset": 16,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 17,
+      "op": "Push",
+      "args": [
+        "price",
+        50
+      ]
+    },
+    {
+      "offset": 32,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 33,
+      "op": "Push",
+      "args": [
+        "weight",
+        3
+      ]
+    },
+    {
+      "offset": 49,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "ConstantPool"
+    },
+    {
+      "offset": 37,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        },
+        14
+      ]
+    },
+    {
+      "offset": 47,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 48,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 53,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 54,
+      "op": "Push",
+      "args": [
+        1
+      ]
+    },
+    {
+      "offset": 62,
+      "op": "Equals2"
+    },
+    {
+      "offset": 63,
+      "op": "Not"
+    },
+    {
+      "offset": 64,
+      "op": "If",
+      "args": 16
+    },
+    {
+      "offset": 69,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 2
+        },
+        33
+      ]
+    },
+    {
+      "offset": 79,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 80,
+      "op": "Jump",
+      "args": 11
+    },
+    {
+      "offset": 85,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 2
+        },
+        11
+      ]
+    },
+    {
+      "offset": 95,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 96,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 3
+        },
+        8
+      ]
+    },
+    {
+      "offset": 106,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "object",
+        3
+      ]
+    },
+    {
+      "offset": 16,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 17,
+      "op": "Push",
+      "args": [
+        "price",
+        100
+      ]
+    },
+    {
+      "offset": 32,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 33,
+      "op": "Push",
+      "args": [
+        "weight",
+        7
+      ]
+    },
+    {
+      "offset": 49,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "things",
+        20
+      ]
+    },
+    {
+      "offset": 16,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 17,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "things",
+        20
+      ]
+    },
+    {
+      "offset": 16,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 17,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "things",
+        17
+      ]
+    },
+    {
+      "offset": 16,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 17,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "things",
+        17
+      ]
+    },
+    {
+      "offset": 16,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 17,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "things",
+        17
+      ]
+    },
+    {
+      "offset": 16,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 17,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "things",
+        18
+      ]
+    },
+    {
+      "offset": 16,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 17,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "object",
+        4
+      ]
+    },
+    {
+      "offset": 16,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 17,
+      "op": "Push",
+      "args": [
+        "price",
+        250
+      ]
+    },
+    {
+      "offset": 32,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 33,
+      "op": "Push",
+      "args": [
+        "weight",
+        8
+      ]
+    },
+    {
+      "offset": 49,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "",
+        4
+      ]
+    },
+    {
+      "offset": 10,
+      "op": "GetProperty"
+    },
+    {
+      "offset": 11,
+      "op": "Push",
+      "args": [
+        20
+      ]
+    },
+    {
+      "offset": 19,
+      "op": "RandomNumber"
+    },
+    {
+      "offset": 20,
+      "op": "Add2"
+    },
+    {
+      "offset": 21,
+      "op": "Push",
+      "args": [
+        1
+      ]
+    },
+    {
+      "offset": 29,
+      "op": "Add2"
+    },
+    {
+      "offset": 30,
+      "op": "GotoFrame2"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "",
+        4
+      ]
+    },
+    {
+      "offset": 10,
+      "op": "GetProperty"
+    },
+    {
+      "offset": 11,
+      "op": "Push",
+      "args": [
+        20
+      ]
+    },
+    {
+      "offset": 19,
+      "op": "RandomNumber"
+    },
+    {
+      "offset": 20,
+      "op": "Add2"
+    },
+    {
+      "offset": 21,
+      "op": "Push",
+      "args": [
+        1
+      ]
+    },
+    {
+      "offset": 29,
+      "op": "Add2"
+    },
+    {
+      "offset": 30,
+      "op": "GotoFrame2"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "object",
+        6
+      ]
+    },
+    {
+      "offset": 16,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 17,
+      "op": "Push",
+      "args": [
+        "price",
+        2
+      ]
+    },
+    {
+      "offset": 32,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 33,
+      "op": "Push",
+      "args": [
+        "weight",
+        3
+      ]
+    },
+    {
+      "offset": 49,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "things",
+        18
+      ]
+    },
+    {
+      "offset": 16,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 17,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "things",
+        18
+      ]
+    },
+    {
+      "offset": 16,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 17,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "things",
+        22
+      ]
+    },
+    {
+      "offset": 16,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 17,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "things",
+        22
+      ]
+    },
+    {
+      "offset": 16,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 17,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "things",
+        22
+      ]
+    },
+    {
+      "offset": 16,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 17,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "things",
+        22
+      ]
+    },
+    {
+      "offset": 16,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 17,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "",
+        4
+      ]
+    },
+    {
+      "offset": 10,
+      "op": "GetProperty"
+    },
+    {
+      "offset": 11,
+      "op": "Push",
+      "args": [
+        20
+      ]
+    },
+    {
+      "offset": 19,
+      "op": "RandomNumber"
+    },
+    {
+      "offset": 20,
+      "op": "Add2"
+    },
+    {
+      "offset": 21,
+      "op": "Push",
+      "args": [
+        1
+      ]
+    },
+    {
+      "offset": 29,
+      "op": "Add2"
+    },
+    {
+      "offset": 30,
+      "op": "GotoFrame2"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "",
+        4
+      ]
+    },
+    {
+      "offset": 10,
+      "op": "GetProperty"
+    },
+    {
+      "offset": 11,
+      "op": "Push",
+      "args": [
+        20
+      ]
+    },
+    {
+      "offset": 19,
+      "op": "RandomNumber"
+    },
+    {
+      "offset": 20,
+      "op": "Add2"
+    },
+    {
+      "offset": 21,
+      "op": "Push",
+      "args": [
+        1
+      ]
+    },
+    {
+      "offset": 29,
+      "op": "Add2"
+    },
+    {
+      "offset": 30,
+      "op": "GotoFrame2"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "ConstantPool"
+    },
+    {
+      "offset": 40,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 0
+        },
+        10
+      ]
+    },
+    {
+      "offset": 50,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 51,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 1
+        }
+      ]
+    },
+    {
+      "offset": 56,
+      "op": "GetVariable"
+    },
+    {
+      "offset": 57,
+      "op": "Push",
+      "args": [
+        1
+      ]
+    },
+    {
+      "offset": 65,
+      "op": "Equals2"
+    },
+    {
+      "offset": 66,
+      "op": "Not"
+    },
+    {
+      "offset": 67,
+      "op": "If",
+      "args": 16
+    },
+    {
+      "offset": 72,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 2
+        },
+        902
+      ]
+    },
+    {
+      "offset": 82,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 83,
+      "op": "Jump",
+      "args": 11
+    },
+    {
+      "offset": 88,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 2
+        },
+        602
+      ]
+    },
+    {
+      "offset": 98,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 99,
+      "op": "Push",
+      "args": [
+        {
+          "type": 8,
+          "index": 3
+        },
+        5
+      ]
+    },
+    {
+      "offset": 109,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "things",
+        22
+      ]
+    },
+    {
+      "offset": 16,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 17,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "things",
+        22
+      ]
+    },
+    {
+      "offset": 16,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 17,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "things",
+        20
+      ]
+    },
+    {
+      "offset": 16,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 17,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "object",
+        7
+      ]
+    },
+    {
+      "offset": 16,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 17,
+      "op": "Push",
+      "args": [
+        "price",
+        7
+      ]
+    },
+    {
+      "offset": 32,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 33,
+      "op": "Push",
+      "args": [
+        "weight",
+        3
+      ]
+    },
+    {
+      "offset": 49,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "object",
+        13
+      ]
+    },
+    {
+      "offset": 16,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 17,
+      "op": "Push",
+      "args": [
+        "price",
+        20
+      ]
+    },
+    {
+      "offset": 32,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 33,
+      "op": "Push",
+      "args": [
+        "weight",
+        2
+      ]
+    },
+    {
+      "offset": 49,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "object",
+        9
+      ]
+    },
+    {
+      "offset": 16,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 17,
+      "op": "Push",
+      "args": [
+        "price",
+        1
+      ]
+    },
+    {
+      "offset": 32,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 33,
+      "op": "Push",
+      "args": [
+        "weight",
+        2
+      ]
+    },
+    {
+      "offset": 49,
+      "op": "SetVariable"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "things",
+        20
+      ]
+    },
+    {
+      "offset": 16,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 17,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "things",
+        20
+      ]
+    },
+    {
+      "offset": 16,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 17,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "things",
+        18
+      ]
+    },
+    {
+      "offset": 16,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 17,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "things",
+        18
+      ]
+    },
+    {
+      "offset": 16,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 17,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "things",
+        27
+      ]
+    },
+    {
+      "offset": 16,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 17,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "things",
+        26
+      ]
+    },
+    {
+      "offset": 16,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 17,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "things",
+        26
+      ]
+    },
+    {
+      "offset": 16,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 17,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "things",
+        16
+      ]
+    },
+    {
+      "offset": 16,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 17,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "things",
+        26
+      ]
+    },
+    {
+      "offset": 16,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 17,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "things",
+        26
+      ]
+    },
+    {
+      "offset": 16,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 17,
+      "op": "Stop"
+    }
+  ],
+  [
+    {
+      "offset": 0,
+      "op": "Push",
+      "args": [
+        "things",
+        26
+      ]
+    },
+    {
+      "offset": 16,
+      "op": "SetVariable"
+    },
+    {
+      "offset": 17,
+      "op": "Stop"
+    }
+  ]
+]

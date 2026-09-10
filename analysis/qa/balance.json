@@ -1,0 +1,75 @@
+{
+  "method": "Deterministic greedy aiming through normal swing and update; no bombs or potion. This is a feasibility check, not a human difficulty assessment.",
+  "results": [
+    {
+      "mode": "solo",
+      "level": 1,
+      "target": 1000,
+      "score": 3160,
+      "passed": true
+    },
+    {
+      "mode": "solo",
+      "level": 2,
+      "target": 1400,
+      "score": 3280,
+      "passed": true
+    },
+    {
+      "mode": "solo",
+      "level": 3,
+      "target": 1800,
+      "score": 3980,
+      "passed": true
+    },
+    {
+      "mode": "solo",
+      "level": 4,
+      "target": 2200,
+      "score": 4110,
+      "passed": true
+    },
+    {
+      "mode": "solo",
+      "level": 5,
+      "target": 2600,
+      "score": 4730,
+      "passed": true
+    },
+    {
+      "mode": "coop",
+      "level": 1,
+      "target": 1300,
+      "score": 3180,
+      "passed": true
+    },
+    {
+      "mode": "coop",
+      "level": 2,
+      "target": 1820,
+      "score": 3280,
+      "passed": true
+    },
+    {
+      "mode": "coop",
+      "level": 3,
+      "target": 2340,
+      "score": 3980,
+      "passed": true
+    },
+    {
+      "mode": "coop",
+      "level": 4,
+      "target": 2860,
+      "score": 4110,
+      "passed": true
+    },
+    {
+      "mode": "coop",
+      "level": 5,
+      "target": 3380,
+      "score": 4730,
+      "passed": true
+    }
+  ]
+}
