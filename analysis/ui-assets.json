@@ -1,0 +1,326 @@
+[
+  {
+    "file": "ore_lucky_bag.png",
+    "width": 512,
+    "height": 512,
+    "alpha": true,
+    "bounds": [
+      95,
+      47,
+      322,
+      418
+    ]
+  },
+  {
+    "file": "ui_badge_failure.png",
+    "width": 512,
+    "height": 384,
+    "alpha": true,
+    "bounds": [
+      101,
+      40,
+      325,
+      287
+    ]
+  },
+  {
+    "file": "ui_badge_success.png",
+    "width": 512,
+    "height": 384,
+    "alpha": true,
+    "bounds": [
+      92,
+      35,
+      327,
+      313
+    ]
+  },
+  {
+    "file": "ui_button_primary.png",
+    "width": 768,
+    "height": 192,
+    "alpha": true,
+    "bounds": [
+      7,
+      7,
+      753,
+      178
+    ]
+  },
+  {
+    "file": "ui_button_secondary.png",
+    "width": 768,
+    "height": 192,
+    "alpha": true,
+    "bounds": [
+      6,
+      6,
+      757,
+      181
+    ]
+  },
+  {
+    "file": "ui_game_frame.png",
+    "width": 2000,
+    "height": 1300,
+    "alpha": true,
+    "bounds": [
+      29,
+      18,
+      1941,
+      1264
+    ]
+  },
+  {
+    "file": "ui_hud_top.png",
+    "width": 2000,
+    "height": 144,
+    "alpha": true,
+    "bounds": [
+      4,
+      3,
+      1993,
+      139
+    ]
+  },
+  {
+    "file": "ui_icon_luck.png",
+    "width": 256,
+    "height": 256,
+    "alpha": true,
+    "bounds": [
+      39,
+      66,
+      178,
+      152
+    ]
+  },
+  {
+    "file": "ui_icon_pause.png",
+    "width": 256,
+    "height": 256,
+    "alpha": true,
+    "bounds": [
+      69,
+      40,
+      119,
+      176
+    ]
+  },
+  {
+    "file": "ui_icon_sound_off.png",
+    "width": 256,
+    "height": 256,
+    "alpha": true,
+    "bounds": [
+      40,
+      68,
+      176,
+      121
+    ]
+  },
+  {
+    "file": "ui_icon_sound_on.png",
+    "width": 256,
+    "height": 256,
+    "alpha": true,
+    "bounds": [
+      40,
+      68,
+      181,
+      121
+    ]
+  },
+  {
+    "file": "ui_icon_strength.png",
+    "width": 256,
+    "height": 256,
+    "alpha": true,
+    "bounds": [
+      53,
+      53,
+      151,
+      166
+    ]
+  },
+  {
+    "file": "ui_icon_timer.png",
+    "width": 256,
+    "height": 256,
+    "alpha": true,
+    "bounds": [
+      40,
+      11,
+      177,
+      216
+    ]
+  },
+  {
+    "file": "ui_icon_wallet.png",
+    "width": 256,
+    "height": 256,
+    "alpha": true,
+    "bounds": [
+      40,
+      43,
+      177,
+      191
+    ]
+  },
+  {
+    "file": "ui_panel_card.png",
+    "width": 768,
+    "height": 512,
+    "alpha": true,
+    "bounds": [
+      6,
+      6,
+      756,
+      500
+    ]
+  },
+  {
+    "file": "ui_panel_main.png",
+    "width": 1800,
+    "height": 900,
+    "alpha": true,
+    "bounds": [
+      8,
+      8,
+      1785,
+      885
+    ]
+  },
+  {
+    "file": "ui_player_strip_gold.png",
+    "width": 1000,
+    "height": 100,
+    "alpha": true,
+    "bounds": [
+      3,
+      3,
+      995,
+      95
+    ]
+  },
+  {
+    "file": "ui_player_strip_teal.png",
+    "width": 1000,
+    "height": 100,
+    "alpha": true,
+    "bounds": [
+      3,
+      3,
+      995,
+      95
+    ]
+  },
+  {
+    "file": "ui_progress_fill_gold.png",
+    "width": 1024,
+    "height": 48,
+    "alpha": true,
+    "bounds": [
+      2,
+      2,
+      1021,
+      45
+    ]
+  },
+  {
+    "file": "ui_progress_fill_teal.png",
+    "width": 1024,
+    "height": 48,
+    "alpha": true,
+    "bounds": [
+      2,
+      2,
+      1021,
+      45
+    ]
+  },
+  {
+    "file": "ui_progress_track.png",
+    "width": 1024,
+    "height": 64,
+    "alpha": true,
+    "bounds": [
+      2,
+      2,
+      1021,
+      61
+    ]
+  },
+  {
+    "file": "ui_route_crystal.png",
+    "width": 768,
+    "height": 432,
+    "alpha": false,
+    "bounds": [
+      0,
+      0,
+      768,
+      432
+    ]
+  },
+  {
+    "file": "ui_route_danger.png",
+    "width": 768,
+    "height": 432,
+    "alpha": false,
+    "bounds": [
+      0,
+      0,
+      768,
+      432
+    ]
+  },
+  {
+    "file": "ui_route_gold.png",
+    "width": 768,
+    "height": 432,
+    "alpha": false,
+    "bounds": [
+      0,
+      0,
+      768,
+      432
+    ]
+  },
+  {
+    "file": "ui_route_ruins.png",
+    "width": 768,
+    "height": 432,
+    "alpha": false,
+    "bounds": [
+      0,
+      0,
+      768,
+      432
+    ]
+  },
+  {
+    "file": "ui_tab.png",
+    "width": 640,
+    "height": 160,
+    "alpha": true,
+    "bounds": [
+      4,
+      4,
+      633,
+      153
+    ]
+  },
+  {
+    "file": "ui_title_banner.png",
+    "width": 1200,
+    "height": 240,
+    "alpha": true,
+    "bounds": [
+      50,
+      52,
+      1101,
+      137
+    ]
+  }
+]

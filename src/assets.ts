@@ -9,9 +9,11 @@ const BOUNDS:Record<string,[number,number,number,number]>={
 export function loadAssets(scene:Phaser.Scene){
   scene.load.on('progress',(progress:number)=>{const el=document.getElementById('status');if(el)el.textContent=`正在加载高清素材……${Math.round(progress*100)}%`;});
   scene.load.on('loaderror',()=>{const el=document.getElementById('status');if(el)el.textContent='部分素材加载失败，请刷新页面重试。';});
+  scene.load.image('ore_lucky_bag','/assets/ui/ore_lucky_bag.png');
   for(const key of ASSETS)scene.load.image(key,`/assets/${key}.png`);
 }
 export function registerFrames(scene:Phaser.Scene){
+  scene.textures.get('ore_lucky_bag').add('trim',0,95,47,322,418);
   for(const [key,rect] of Object.entries(BOUNDS))scene.textures.get(key).add('trim',0,...rect);
   for(const key of BACKGROUNDS){scene.textures.get(key).add('sky',0,0,0,2000,300);scene.textures.get(key).add('soil',0,0,300,2000,680);}
 }

@@ -6,10 +6,10 @@ const browser=await chromium.launch({executablePath,headless:true});
 try{
 const page=await browser.newPage({viewport:{width:1440,height:1200},permissions:['clipboard-read','clipboard-write']});const errors=[];page.on('pageerror',e=>errors.push(e.message));
 await page.goto('http://127.0.0.1:5173');await page.waitForFunction(()=>window.__miner?.scene.getScene('mine')?.players?.length>0);
-const run=fn=>page.evaluate(fn);await page.locator('#mode-coop').click();await page.locator('#action').click();await run(()=>window.__miner.loop.sleep());
-await page.locator('#tuning-swing-number').fill('2');await page.locator('#tuning-pull-number').fill('1.5');
+const run=fn=>page.evaluate(fn);await page.locator('#action').click();await page.locator('[data-route="ruins"][data-player="0"]').click();await page.locator('[data-route="ruins"][data-player="1"]').click();await page.locator('#next-level').click();await run(()=>window.__miner.loop.sleep());
+await page.locator('#debug-panel').evaluate(el=>el.open=true);await page.locator('#tuning-swing-number').fill('2');await page.locator('#tuning-pull-number').fill('1.5');
 const motion=await run(()=>{const s=window.__miner.scene.getScene('mine');return s.players.map(p=>{p.angle=0;p.direction=1;p.mode='swing';p.update(.1,s.ores,false,()=>{},()=>{});const swing=p.angle;p.mode='back';p.length=400;p.caught=undefined;p.update(.1,s.ores,false,()=>{},()=>{});const empty=400-p.length;p.length=400;p.caught=s.ores[0];p.update(.1,s.ores,false,()=>{},()=>{});const heavy=400-p.length;p.length=400;p.update(.1,s.ores,true,()=>{},()=>{});return {swing,empty,heavy,potion:400-p.length};});});
-for(const p of motion){assert.ok(Math.abs(p.swing-.23)<.0001);assert.ok(Math.abs(p.empty-58.5)<.0001);assert.ok(Math.abs(p.heavy-58.5/(1+3*.48))<.0001);assert.ok(Math.abs(p.potion/p.heavy-1.65)<.0001);}
+for(const p of motion){assert.ok(Math.abs(p.swing-.23)<.0001);assert.ok(Math.abs(p.empty-58.5)<.0001);assert.ok(Math.abs(p.heavy-58.5/(1+7*.48))<.0001);assert.ok(Math.abs(p.potion/p.heavy-1.65)<.0001);}
 // Invalid edits do not change the active setting; input arrow keys never fire hooks.
 await page.locator('#tuning-swing-number').fill('');await page.locator('#tuning-pull-number').fill('99');
 assert.deepEqual(await run(()=>JSON.parse(localStorage.getItem('gold-digger-tuning-v1'))),{swing:2,pull:1.5});
@@ -21,6 +21,7 @@ assert.equal(await page.locator('#tuning-swing-number').inputValue(),'0.75');
 await page.locator('#tuning-copy').click();await page.waitForFunction(()=>/复制|选中/.test(document.getElementById('tuning-message').textContent));
 assert.match(await page.locator('#tuning-values').inputValue(),/0.75 倍；拉取 1.50 倍/);
 await page.reload();await page.waitForFunction(()=>window.__miner?.scene.getScene('mine')?.players?.length>0);
+await page.locator('#debug-panel').evaluate(el=>el.open=true);
 assert.equal(await page.locator('#tuning-swing-number').inputValue(),'0.75');assert.equal(await page.locator('#tuning-pull-number').inputValue(),'1.50');
 await page.screenshot({path:'analysis/qa/tuning-desktop.png',fullPage:true});
 await page.locator('#tuning-reset').click();assert.deepEqual(await run(()=>JSON.parse(localStorage.getItem('gold-digger-tuning-v1'))),{swing:1,pull:1});

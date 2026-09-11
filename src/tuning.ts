@@ -11,7 +11,7 @@ export const tuning:Tuning=read();
 
 export function mountTuning(){
   const panel=document.createElement('section');panel.className='tuning';panel.setAttribute('aria-label','手感调节');
-  panel.innerHTML=`<div class="tuning-head"><strong>手感调节</strong><span>即时生效 · 单人 / 双人共用 · 1.00 倍为原始速度</span><button type="button" id="tuning-reset" class="quiet">恢复默认</button></div>
+  panel.innerHTML=`<div class="tuning-head"><strong>手感调节</strong><span>测试设置 · 双人共用 · 1.00 倍为原始速度</span><button type="button" id="tuning-reset" class="quiet">恢复默认</button></div>
   <div class="tuning-fields">
     <div><label for="tuning-swing">钩子摆动速度</label><input id="tuning-swing" type="range" min="0.1" max="5" step="0.01"/><input id="tuning-swing-number" aria-label="钩子摆动速度倍率" type="number" min="0.1" max="5" step="0.01"/><span>倍</span></div>
     <div><label for="tuning-pull">拉取速度</label><input id="tuning-pull" type="range" min="0.1" max="5" step="0.01"/><input id="tuning-pull-number" aria-label="拉取速度倍率" type="number" min="0.1" max="5" step="0.01"/><span>倍</span></div>
